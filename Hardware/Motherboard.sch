@@ -27003,6 +27003,11 @@ control of 3.3V bus.</text>
 <wire x1="109.22" y1="238.76" x2="111.76" y2="238.76" width="0.1524" layer="91"/>
 <label x="111.76" y="238.76" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+<segment>
+<wire x1="63.5" y1="190.5" x2="60.96" y2="190.5" width="0.1524" layer="91"/>
+<label x="60.96" y="190.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J1" gate="J1" pin="AUD_LRCLK"/>
+</segment>
 </net>
 <net name="PWR_EN1" class="0">
 <segment>
@@ -27014,6 +27019,11 @@ control of 3.3V bus.</text>
 <pinref part="J1" gate="J1" pin="SDIO_DATA1"/>
 <wire x1="109.22" y1="241.3" x2="111.76" y2="241.3" width="0.1524" layer="91"/>
 <label x="111.76" y="241.3" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="63.5" y1="187.96" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
+<label x="60.96" y="187.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J1" gate="J1" pin="AUD_BCLK"/>
 </segment>
 </net>
 <net name="3.3V_EN" class="0">
