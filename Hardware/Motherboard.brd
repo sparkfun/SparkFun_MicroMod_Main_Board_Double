@@ -6110,13 +6110,13 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="NAME" x="6.35" y="16.637" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="6.35" y="18.923" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="U$1" library="top" package="#3V3_EN#18" value="" x="9.652" y="33.909" smashed="yes" rot="MR270"/>
-<element name="U$2" library="top" package="#3V3_LED#17" value="" x="2.159" y="34.29" smashed="yes" rot="MR270"/>
-<element name="U$3" library="top" package="#VIN_LED#16" value="" x="2.286" y="22.987" smashed="yes" rot="MR90"/>
+<element name="U$1" library="top" package="#3V3_EN#18" value="" x="12.954" y="30.48" smashed="yes" rot="MR0"/>
+<element name="U$2" library="top" package="#3V3_LED#17" value="" x="5.842" y="30.48" smashed="yes" rot="MR0"/>
+<element name="U$3" library="top" package="#VIN_LED#16" value="" x="5.715" y="26.67" smashed="yes" rot="MR0"/>
 <element name="U$4" library="top" package="3V332533" value="" x="5.842" y="30.48" smashed="yes" rot="R270"/>
 <element name="U$5" library="top" package="VIN32532" value="" x="5.842" y="26.67" smashed="yes" rot="R270"/>
 <element name="U$6" library="top" package="CHG32531" value="" x="5.842" y="34.29" smashed="yes" rot="R270"/>
-<element name="U$7" library="top" package="#PTC#18" value="" x="8.89" y="15.367" smashed="yes" rot="MR270"/>
+<element name="U$7" library="top" package="#PTC#18" value="" x="11.176" y="12.954" smashed="yes" rot="MR0"/>
 <element name="U$8" library="top" package="BOOT32541" value="" x="8.636" y="42.926" smashed="yes" rot="R270"/>
 <element name="U$9" library="top" package="RESET32540" value="" x="8.509" y="49.784" smashed="yes" rot="R270"/>
 <element name="U$10" library="top" package="PROCESSOR525" value="" x="28.702" y="55.88" smashed="yes"/>
@@ -6124,6 +6124,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$12" library="top" package="FUNCTION_ONE524" value="" x="100.203" y="71.12" smashed="yes"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.3" value="SFE_LOGO_NAME_FLAME.3_INCH" x="62.23" y="33.02" smashed="yes" rot="MR0"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="120.65" y="7.62" smashed="yes" rot="MR0"/>
+<element name="H1" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="2.54" y="22.86" smashed="yes">
+<attribute name="NAME" x="2.54" y="24.511" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="2.54" y="21.209" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="V_BKCP">
@@ -7093,9 +7097,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="22.0726" y1="50.9016" x2="20.1676" y2="48.9966" width="0.2032" layer="16"/>
 <wire x1="20.1676" y1="48.9966" x2="12.1666" y2="48.9966" width="0.2032" layer="16"/>
 </signal>
-<signal name="USB_VIN">
-<contactref element="J1" pad="9"/>
-</signal>
 <signal name="PROCESSOR_CAN-TX">
 <contactref element="J1" pad="43"/>
 <contactref element="J6" pad="41"/>
@@ -7729,7 +7730,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="70.358" y="59.944"/>
 <vertex x="70.612" y="59.944"/>
 </polygon>
-<wire x1="17.6022" y1="59.309" x2="70.9422" y2="59.309" width="0.5588" layer="16"/>
+<wire x1="17.6022" y1="59.309" x2="20.955" y2="59.309" width="0.5588" layer="16"/>
+<wire x1="20.955" y1="59.309" x2="70.9422" y2="59.309" width="0.5588" layer="16"/>
 <wire x1="70.9422" y1="59.309" x2="70.9676" y2="59.3344" width="0.5588" layer="16"/>
 <via x="70.9676" y="59.3344" extent="1-16" drill="0.35"/>
 <wire x1="109.3343" y1="59.4233" x2="109.3216" y2="59.4106" width="0.5588" layer="16"/>
@@ -7754,6 +7756,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="4.3688" y1="23.5712" x2="6.8707" y2="21.0693" width="0.2032" layer="1"/>
 <wire x1="11.176" y1="15.748" x2="9.144" y2="17.78" width="0.5588" layer="1"/>
 <wire x1="9.144" y1="17.78" x2="6.8707" y2="17.78" width="0.5588" layer="1"/>
+<contactref element="J1" pad="9"/>
+<wire x1="20.955" y1="57.277" x2="20.955" y2="59.309" width="0.254" layer="1"/>
+<via x="20.955" y="59.309" extent="1-16" drill="0.381"/>
+<wire x1="21.706" y1="52.773" x2="21.706" y2="56.526" width="0.254" layer="1"/>
+<wire x1="21.706" y1="56.526" x2="20.955" y2="57.277" width="0.254" layer="1"/>
 </signal>
 <signal name="SHLD">
 <polygon width="0.2032" layer="16" isolate="0.3048" thermals="no">
