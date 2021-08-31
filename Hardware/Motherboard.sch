@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22352,13 +22352,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="V_USB">
-<description>&lt;h3&gt;USB Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="V_USB" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-</symbol>
 <symbol name="VIN">
 <description>&lt;h3&gt;Input Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -22401,19 +22394,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="3.3V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="V_USB" prefix="SUPPLY">
-<description>&lt;h3&gt;USB Voltage Supply&lt;/h3&gt;</description>
-<gates>
-<gate name="G$1" symbol="V_USB" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -26244,9 +26224,6 @@ Used in manufacturing several products at SparkFun.
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
-<part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".3_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
@@ -26311,10 +26288,10 @@ Used in manufacturing several products at SparkFun.
 <part name="R8" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="D8" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26324,7 +26301,7 @@ Used in manufacturing several products at SparkFun.
 <wire x1="431.8" y1="132.08" x2="330.2" y2="132.08" width="0.2032" layer="97" style="longdash"/>
 <text x="96.774" y="123.952" size="2.54" layer="94" font="vector" align="center">Function Board Connectors</text>
 <text x="95.25" y="271.526" size="2.54" layer="94" font="vector" align="center">Processor Board Connector</text>
-<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v01</text>
+<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v10</text>
 <wire x1="330.2" y1="132.08" x2="274.32" y2="132.08" width="0.2032" layer="97" style="longdash"/>
 <wire x1="274.32" y1="132.08" x2="205.74" y2="132.08" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="132.08" x2="330.2" y2="76.2" width="0.2032" layer="97" style="longdash"/>
@@ -26359,6 +26336,7 @@ control of 3.3V bus.</text>
 <wire x1="266.7" y1="76.2" x2="266.7" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="274.32" y1="195.58" x2="274.32" y2="132.08" width="0.2032" layer="97" style="longdash"/>
 <text x="226.06" y="185.42" size="2.54" layer="94" font="vector">Buttons</text>
+<text x="350.52" y="10.16" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="375.92" y="78.74" smashed="yes">
@@ -26503,15 +26481,6 @@ control of 3.3V bus.</text>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="22.352" y="176.53" smashed="yes">
 <attribute name="VALUE" x="22.352" y="179.324" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="JP1" gate="G$1" x="259.08" y="220.98" smashed="yes">
-<attribute name="NAME" x="256.54" y="223.52" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="SUPPLY18" gate="G$1" x="251.46" y="223.52" smashed="yes">
-<attribute name="VALUE" x="251.46" y="226.314" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY21" gate="G$1" x="266.7" y="223.52" smashed="yes">
-<attribute name="VALUE" x="266.7" y="226.314" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="330.2" y="33.02" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="419.1" y="45.72" smashed="yes"/>
@@ -26728,17 +26697,17 @@ control of 3.3V bus.</text>
 <instance part="GND39" gate="1" x="227.076" y="12.446" smashed="yes">
 <attribute name="VALUE" x="227.076" y="12.192" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="243.84" y="251.46" smashed="yes">
-<attribute name="VALUE" x="243.84" y="254.254" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY13" gate="G$1" x="287.02" y="253.746" smashed="yes">
 <attribute name="VALUE" x="287.02" y="256.54" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="294.894" y="36.068" smashed="yes">
-<attribute name="VALUE" x="294.894" y="38.862" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY24" gate="G$1" x="227.076" y="53.34" smashed="yes">
 <attribute name="VALUE" x="227.076" y="56.134" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY26" gate="G$1" x="243.84" y="251.206" smashed="yes">
+<attribute name="VALUE" x="243.84" y="254" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="294.894" y="36.068" smashed="yes">
+<attribute name="VALUE" x="294.894" y="38.862" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -27659,12 +27628,6 @@ control of 3.3V bus.</text>
 <wire x1="22.352" y1="176.53" x2="22.352" y2="173.99" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="254" y1="220.98" x2="251.46" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="220.98" x2="251.46" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="SUPPLY18" gate="G$1" pin="VIN"/>
-</segment>
-<segment>
 <pinref part="J1" gate="J1" pin="USB_VIN"/>
 <wire x1="63.5" y1="231.14" x2="45.72" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="231.14" x2="45.72" y2="233.68" width="0.1524" layer="91"/>
@@ -27680,29 +27643,21 @@ control of 3.3V bus.</text>
 <pinref part="SUPPLY13" gate="G$1" pin="VIN"/>
 <wire x1="287.02" y1="243.84" x2="287.02" y2="253.746" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="V_USB" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="220.98" x2="266.7" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="220.98" x2="266.7" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="SUPPLY21" gate="G$1" pin="V_USB"/>
-</segment>
 <segment>
 <pinref part="BYP" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="248.92" x2="243.84" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="248.92" x2="243.84" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="F2" gate="F1" pin="2"/>
 <wire x1="243.84" y1="243.84" x2="241.3" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY7" gate="G$1" pin="V_USB"/>
-<wire x1="243.84" y1="248.92" x2="243.84" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="SUPPLY26" gate="G$1" pin="VIN"/>
+<wire x1="243.84" y1="248.92" x2="243.84" y2="251.206" width="0.1524" layer="91"/>
 <junction x="243.84" y="248.92"/>
 </segment>
 <segment>
 <pinref part="TP4" gate="G$1" pin="1"/>
 <wire x1="297.434" y1="33.528" x2="294.894" y2="33.528" width="0.1524" layer="91"/>
 <wire x1="294.894" y1="33.528" x2="294.894" y2="36.068" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="G$1" pin="V_USB"/>
+<pinref part="SUPPLY7" gate="G$1" pin="VIN"/>
 </segment>
 </net>
 <net name="V_BATT" class="1">
