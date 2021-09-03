@@ -26791,6 +26791,8 @@ Used in manufacturing several products at SparkFun.
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-DMG2307L" value="3.1A/30V/105mΩ"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R6" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27205,9 +27207,9 @@ control of 3.3V bus.</text>
 <instance part="SUPPLY6" gate="G$1" x="289.56" y="182.88" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="289.56" y="185.674" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="D5" gate="G$1" x="266.7" y="241.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="261.62" y="240.792" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="246.38" y="239.268" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D5" gate="G$1" x="269.24" y="236.22" smashed="yes">
+<attribute name="NAME" x="269.24" y="234.188" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="266.954" y="231.394" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="5V_LED" gate="G$1" x="227.076" y="22.606" smashed="yes" rot="R90">
 <attribute name="NAME" x="224.79" y="17.526" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -27224,8 +27226,8 @@ control of 3.3V bus.</text>
 <instance part="GND39" gate="1" x="227.076" y="12.446" smashed="yes">
 <attribute name="VALUE" x="227.076" y="12.192" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="266.7" y="256.286" smashed="yes">
-<attribute name="VALUE" x="266.7" y="259.08" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY13" gate="G$1" x="264.16" y="256.286" smashed="yes">
+<attribute name="VALUE" x="264.16" y="259.08" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY24" gate="G$1" x="227.076" y="53.34" smashed="yes">
 <attribute name="VALUE" x="227.076" y="56.134" size="1.778" layer="96" align="bottom-center"/>
@@ -27256,6 +27258,13 @@ control of 3.3V bus.</text>
 </instance>
 <instance part="GND6" gate="1" x="177.8" y="139.7" smashed="yes">
 <attribute name="VALUE" x="177.8" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R6" gate="G$1" x="264.16" y="228.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="262.636" y="226.06" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="260.604" y="231.14" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND8" gate="1" x="264.16" y="218.44" smashed="yes">
+<attribute name="VALUE" x="264.16" y="218.186" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -27544,6 +27553,11 @@ control of 3.3V bus.</text>
 <wire x1="347.98" y1="144.78" x2="347.98" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="142.24" x2="345.44" y2="142.24" width="0.1524" layer="91"/>
 <junction x="345.44" y="142.24"/>
+</segment>
+<segment>
+<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="220.98" x2="264.16" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWR_EN0" class="0">
@@ -28205,11 +28219,15 @@ control of 3.3V bus.</text>
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
 <pinref part="SUPPLY13" gate="G$1" pin="VIN"/>
-<wire x1="266.7" y1="243.84" x2="266.7" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="266.7" y1="246.38" x2="266.7" y2="256.286" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="246.38" x2="266.7" y2="246.38" width="0.1524" layer="91"/>
-<junction x="266.7" y="246.38"/>
+<wire x1="271.78" y1="246.38" x2="264.16" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="246.38" x2="264.16" y2="256.286" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="233.68" x2="264.16" y2="236.22" width="0.1524" layer="91"/>
+<junction x="264.16" y="246.38"/>
+<wire x1="264.16" y1="236.22" x2="264.16" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="236.22" x2="266.7" y2="236.22" width="0.1524" layer="91"/>
+<junction x="264.16" y="236.22"/>
 </segment>
 <segment>
 <pinref part="BYP" gate="G$1" pin="2"/>
@@ -28355,8 +28373,7 @@ control of 3.3V bus.</text>
 <wire x1="279.4" y1="236.22" x2="287.02" y2="236.22" width="0.1524" layer="91"/>
 <junction x="287.02" y="236.22"/>
 <pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="266.7" y1="238.76" x2="266.7" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="236.22" x2="279.4" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="236.22" x2="279.4" y2="236.22" width="0.1524" layer="91"/>
 <junction x="279.4" y="236.22"/>
 </segment>
 <segment>
