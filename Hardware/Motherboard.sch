@@ -28226,7 +28226,7 @@ control of 3.3V bus.</text>
 <wire x1="132.08" y1="160.02" x2="167.64" y2="160.02" width="0.1524" layer="97" style="longdash"/>
 <text x="142.24" y="231.14" size="2.54" layer="94" font="vector">Alternative Power Enable
 Jumpers</text>
-<text x="134.62" y="192.278" size="1.778" layer="97" font="vector">Certian processors have limited GPIO and
+<text x="134.62" y="192.278" size="1.778" layer="97" font="vector">Certain processors have limited GPIO and
 so these alternative power enable pins have
 been provided. Simply move the shunt to 
 suit your project's needs. 
