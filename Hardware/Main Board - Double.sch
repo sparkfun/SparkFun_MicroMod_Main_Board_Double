@@ -28058,8 +28058,6 @@ Used in manufacturing several products at SparkFun.
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF-REFLOW" device="-M2.5_2.5MM_TALL"/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF-REFLOW" device="-M2.5_2.5MM_TALL"/>
 <part name="GND40" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".3_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L" value="OSHW-LOGOL"/>
@@ -28136,6 +28134,8 @@ Used in manufacturing several products at SparkFun.
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J9" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK"/>
 <part name="J11" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK"/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28374,12 +28374,6 @@ suit your project's needs.
 <instance part="H4" gate="G$1" x="195.58" y="17.78" smashed="yes"/>
 <instance part="GND40" gate="1" x="195.58" y="7.62" smashed="yes">
 <attribute name="VALUE" x="195.58" y="7.366" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="SUPPLY9" gate="G$1" x="24.638" y="91.186" smashed="yes">
-<attribute name="VALUE" x="24.638" y="93.98" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY23" gate="G$1" x="114.808" y="90.932" smashed="yes">
-<attribute name="VALUE" x="114.808" y="93.726" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="13.716" y="178.562" smashed="yes">
 <attribute name="VALUE" x="13.716" y="181.356" size="1.778" layer="96" align="bottom-center"/>
@@ -28635,6 +28629,12 @@ suit your project's needs.
 <instance part="J11" gate="J$1" x="180.34" y="180.34" smashed="yes" rot="R180">
 <attribute name="VALUE" x="182.88" y="187.706" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="182.88" y="174.752" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="114.808" y="90.932" smashed="yes">
+<attribute name="VALUE" x="114.808" y="93.726" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="24.638" y="91.186" smashed="yes">
+<attribute name="VALUE" x="24.638" y="93.98" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -29559,18 +29559,6 @@ suit your project's needs.
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="SUPPLY9" gate="G$1" pin="VIN"/>
-<wire x1="24.638" y1="86.106" x2="24.638" y2="91.186" width="0.1524" layer="91"/>
-<pinref part="J6" gate="J1" pin="VCC"/>
-<wire x1="32.258" y1="86.106" x2="24.638" y2="86.106" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY23" gate="G$1" pin="VIN"/>
-<wire x1="114.808" y1="85.852" x2="114.808" y2="90.932" width="0.1524" layer="91"/>
-<pinref part="J7" gate="J1" pin="VCC"/>
-<wire x1="122.428" y1="85.852" x2="114.808" y2="85.852" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="SUPPLY4" gate="G$1" pin="VIN"/>
 <wire x1="13.716" y1="178.562" x2="13.716" y2="176.022" width="0.1524" layer="91"/>
@@ -29758,6 +29746,18 @@ suit your project's needs.
 <wire x1="289.56" y1="180.34" x2="289.56" y2="172.72" width="0.1524" layer="91"/>
 <junction x="297.18" y="180.34"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="24.638" y1="86.106" x2="24.638" y2="91.186" width="0.1524" layer="91"/>
+<pinref part="J6" gate="J1" pin="VCC"/>
+<wire x1="32.258" y1="86.106" x2="24.638" y2="86.106" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="114.808" y1="85.852" x2="114.808" y2="90.932" width="0.1524" layer="91"/>
+<pinref part="J7" gate="J1" pin="VCC"/>
+<wire x1="122.428" y1="85.852" x2="114.808" y2="85.852" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$12" class="0">
