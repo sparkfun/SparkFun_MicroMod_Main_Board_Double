@@ -28145,7 +28145,7 @@ Used in manufacturing several products at SparkFun.
 <wire x1="431.8" y1="132.08" x2="330.2" y2="132.08" width="0.2032" layer="97" style="longdash"/>
 <text x="96.774" y="123.952" size="2.54" layer="94" font="vector" align="center">Function Board Connectors</text>
 <text x="95.25" y="271.526" size="2.54" layer="94" font="vector" align="center">Processor Board Connector</text>
-<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v10</text>
+<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v11</text>
 <wire x1="330.2" y1="132.08" x2="274.32" y2="132.08" width="0.2032" layer="97" style="longdash"/>
 <wire x1="274.32" y1="132.08" x2="205.74" y2="132.08" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="132.08" x2="330.2" y2="76.2" width="0.2032" layer="97" style="longdash"/>
