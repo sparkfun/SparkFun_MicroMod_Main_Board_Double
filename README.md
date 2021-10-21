@@ -1,7 +1,7 @@
 SparkFun MicroMod Main Board - Double
 ========================================
 
-[![SparkFun MicroMod Main Board - Double](URL for picture of part)](https://www.sparkfun.com/products/18576)
+[![SparkFun MicroMod Main Board - Double](https://cdn.sparkfun.com/assets/parts/1/8/0/4/3/18576-SparkFun_MicroMod_Main_Board_-_Double-01.jpg)](https://www.sparkfun.com/products/18576)
 
 [*SparkFun MicroMod Main Board - Double (DEV-18576)*](https://www.sparkfun.com/products/18576)
 
