@@ -12066,10 +12066,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-09383" x="10.922" y="51.1048" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="10.922" y="51.8668" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="D5" library="SparkFun-DiscreteSemi" package="SOD-323" value="3A/10V/280mV" x="13.6652" y="18.0594" smashed="yes" rot="R270">
+<element name="D5" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="13.6652" y="18.0594" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.4272" y="18.0594" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-14072" x="13.6652" y="18.0594" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="12.9032" y="18.0594" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-11623" x="13.6652" y="18.0594" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="1A/23V/620mV" x="12.9032" y="18.0594" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="J6" library="SparkFun-MicroMod-Function" package="M.2-CONNECTOR-E-FUNCTION-STANDARD" value="MICROMOD_CARRIER" x="62.23" y="63.246" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.23" y="62.611" size="0.762" layer="25" rot="R180" align="center"/>
