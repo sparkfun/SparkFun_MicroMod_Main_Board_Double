@@ -32690,38 +32690,38 @@ Jumper to suit your project's needs.
 </net>
 <net name="TX1-AUX_RX-FC0-PLEX" class="0">
 <segment>
-<wire x1="27.94" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
-<label x="27.94" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J6" gate="J1" pin="MCU_DFU_TX"/>
-</segment>
-<segment>
 <wire x1="109.22" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
 <label x="109.22" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="2S1"/>
 </segment>
-</net>
-<net name="RX1-AUX_TX-FC1-PLEX" class="0">
-<segment>
-<wire x1="119.38" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
-<label x="119.38" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J7" gate="J1" pin="MCU_DFU_RX"/>
-</segment>
-<segment>
-<wire x1="109.22" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
-<label x="109.22" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="1S2"/>
-</segment>
-</net>
-<net name="RX1-AUX_TX-FC0-PLEX" class="0">
 <segment>
 <wire x1="27.94" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
 <label x="27.94" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J6" gate="J1" pin="MCU_DFU_RX"/>
 </segment>
+</net>
+<net name="RX1-AUX_TX-FC1-PLEX" class="0">
+<segment>
+<wire x1="109.22" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
+<label x="109.22" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="1S2"/>
+</segment>
+<segment>
+<wire x1="119.38" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
+<label x="119.38" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J7" gate="J1" pin="MCU_DFU_TX"/>
+</segment>
+</net>
+<net name="RX1-AUX_TX-FC0-PLEX" class="0">
 <segment>
 <wire x1="109.22" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 <label x="109.22" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="1S1"/>
+</segment>
+<segment>
+<wire x1="27.94" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
+<label x="27.94" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J6" gate="J1" pin="MCU_DFU_TX"/>
 </segment>
 </net>
 <net name="SHLD" class="0">
@@ -32734,14 +32734,14 @@ Jumper to suit your project's needs.
 </net>
 <net name="TX1-AUX_RX-FC1-PLEX" class="0">
 <segment>
-<wire x1="119.38" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
-<label x="119.38" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J7" gate="J1" pin="MCU_DFU_TX"/>
-</segment>
-<segment>
 <wire x1="109.22" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 <label x="109.22" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="2S2"/>
+</segment>
+<segment>
+<wire x1="119.38" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<label x="119.38" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J7" gate="J1" pin="MCU_DFU_RX"/>
 </segment>
 </net>
 <net name="I2C_SCL1-PROCESSOR" class="0">
