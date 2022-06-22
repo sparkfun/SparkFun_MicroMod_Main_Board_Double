@@ -30626,34 +30626,34 @@ dual analog SP3T (single pole triple throw) switch
 or dual 3 : 1 multiplexer /demultiplexer switch
 fabricated in silicon gate CMOS technology&lt;/p&gt;</description>
 <wire x1="-7.62" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
 <pin name="VCC" x="-10.16" y="10.16" length="short" direction="pwr"/>
-<pin name="GND" x="-10.16" y="-10.16" length="short" direction="pwr"/>
-<pin name="D2" x="-10.16" y="-5.08" length="short"/>
-<pin name="D1" x="-10.16" y="2.54" length="short"/>
-<pin name="1IN" x="12.7" y="10.16" length="short" rot="R180"/>
-<pin name="2IN" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="1S1" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="1S2" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="1S3" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="2S1" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="2S2" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="2S3" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="GND" x="-10.16" y="-7.62" length="short" direction="pwr"/>
+<pin name="D2" x="-10.16" y="-2.54" length="short"/>
+<pin name="D1" x="-10.16" y="5.08" length="short"/>
+<pin name="1IN" x="-10.16" y="2.54" length="short"/>
+<pin name="2IN" x="-10.16" y="0" length="short"/>
+<pin name="1S1" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="1S2" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="1S3" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="2S1" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="2S2" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="2S3" x="12.7" y="-5.08" length="short" rot="R180"/>
 <text x="-7.62" y="13.208" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<circle x="2.54" y="2.54" radius="0.359209375" width="0" layer="94"/>
-<circle x="2.54" y="0" radius="0.359209375" width="0" layer="94"/>
-<circle x="2.54" y="-5.08" radius="0.359209375" width="0" layer="94"/>
-<circle x="2.54" y="-7.62" radius="0.359209375" width="0" layer="94"/>
-<wire x1="-1.778" y1="2.54" x2="1.524" y2="4.572" width="0.254" layer="94"/>
-<circle x="-1.778" y="2.54" radius="0.359209375" width="0" layer="94"/>
-<circle x="-1.778" y="-5.08" radius="0.359209375" width="0" layer="94"/>
-<wire x1="0" y1="3.556" x2="0" y2="-3.81" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-1.778" y1="-5.08" x2="1.524" y2="-3.048" width="0.254" layer="94"/>
+<text x="-7.62" y="-12.7" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <circle x="2.54" y="5.08" radius="0.359209375" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.359209375" width="0" layer="94"/>
 <circle x="2.54" y="-2.54" radius="0.359209375" width="0" layer="94"/>
+<circle x="2.54" y="-5.08" radius="0.359209375" width="0" layer="94"/>
+<wire x1="-1.778" y1="5.08" x2="1.524" y2="7.112" width="0.254" layer="94"/>
+<circle x="-1.778" y="5.08" radius="0.359209375" width="0" layer="94"/>
+<circle x="-1.778" y="-2.54" radius="0.359209375" width="0" layer="94"/>
+<wire x1="0" y1="6.096" x2="0" y2="-1.27" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="-2.54" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
+<circle x="2.54" y="7.62" radius="0.359209375" width="0" layer="94"/>
+<circle x="2.54" y="0" radius="0.359209375" width="0" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -31645,7 +31645,7 @@ Jumper to suit your project's needs.
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="81.28" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="91.44" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="88.9" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
@@ -31893,8 +31893,8 @@ Jumper to suit your project's needs.
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="D2"/>
-<wire x1="81.28" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
-<label x="81.28" y="96.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="81.28" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
+<label x="81.28" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A1-PROCESSOR" class="0">
@@ -32170,9 +32170,8 @@ Jumper to suit your project's needs.
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="D1"/>
-<wire x1="81.28" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<label x="81.28" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="81.28" y1="106.68" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
+<label x="81.28" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CTS1-PROCESSOR" class="0">
@@ -32575,8 +32574,8 @@ Jumper to suit your project's needs.
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="2S1"/>
-<wire x1="109.22" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
-<label x="109.22" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="109.22" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
+<label x="109.22" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="RX1-PROCESSOR-PLEX" class="0">
@@ -32587,11 +32586,11 @@ Jumper to suit your project's needs.
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="1S1"/>
-<wire x1="109.22" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
-<label x="109.22" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="109.22" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
+<label x="109.22" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="TX1-AUX_RX-PLEX-FC0" class="0">
+<net name="TX1-AUX_RX-FC0-PLEX" class="0">
 <segment>
 <pinref part="J6" gate="J1" pin="AUX_RX"/>
 <wire x1="25.4" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
@@ -32599,15 +32598,15 @@ Jumper to suit your project's needs.
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="2S2"/>
-<wire x1="109.22" y1="96.52" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
-<label x="109.22" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="109.22" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
+<label x="109.22" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="RX1-AUX_TX-PLEX-FC1" class="0">
+<net name="RX1-AUX_TX-FC1-PLEX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="1S3"/>
-<wire x1="109.22" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
-<label x="109.22" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="109.22" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
+<label x="109.22" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J7" gate="J1" pin="AUX_TX"/>
@@ -32615,7 +32614,7 @@ Jumper to suit your project's needs.
 <label x="116.84" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="RX1-AUX_TX-PLEX-FC0" class="0">
+<net name="RX1-AUX_TX-FC0-PLEX" class="0">
 <segment>
 <pinref part="J6" gate="J1" pin="AUX_TX"/>
 <wire x1="25.4" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
@@ -32623,8 +32622,8 @@ Jumper to suit your project's needs.
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="1S2"/>
-<wire x1="109.22" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
-<label x="109.22" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="109.22" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
+<label x="109.22" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -32635,11 +32634,11 @@ Jumper to suit your project's needs.
 <pinref part="SHLD" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="TX1-AUX_RX-PLEX-FC1" class="0">
+<net name="TX1-AUX_RX-FC1-PLEX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="2S3"/>
-<wire x1="109.22" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
-<label x="109.22" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="109.22" y1="96.52" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
+<label x="109.22" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J7" gate="J1" pin="AUX_RX"/>

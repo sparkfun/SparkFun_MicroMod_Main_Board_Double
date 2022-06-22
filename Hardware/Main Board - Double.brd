@@ -14235,17 +14235,17 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U1" pad="P1"/>
 <wire x1="46.333" y1="49.813" x2="55.98" y2="68.521" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TX1-AUX_RX-PLEX-FC0">
+<signal name="TX1-AUX_RX-FC0-PLEX">
 <contactref element="J6" pad="4"/>
 <contactref element="U1" pad="P8"/>
 <wire x1="47.383" y1="49.413" x2="53.73" y2="60.971" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RX1-AUX_TX-PLEX-FC1">
+<signal name="RX1-AUX_TX-FC1-PLEX">
 <contactref element="U1" pad="P3"/>
 <contactref element="J7" pad="6"/>
 <wire x1="46.333" y1="49.013" x2="92.584" y2="60.971" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RX1-AUX_TX-PLEX-FC0">
+<signal name="RX1-AUX_TX-FC0-PLEX">
 <contactref element="J6" pad="6"/>
 <contactref element="U1" pad="P2"/>
 <wire x1="46.333" y1="49.413" x2="54.23" y2="60.971" width="0" layer="19" extent="1-1"/>
@@ -14261,7 +14261,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="14.478" y1="5.8414" x2="5.842" y2="5.8414" width="0" layer="19" extent="1-1"/>
 <wire x1="14.478" y1="1.6614" x2="14.478" y2="5.8414" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TX1-AUX_RX-PLEX-FC1">
+<signal name="TX1-AUX_RX-FC1-PLEX">
 <contactref element="U1" pad="P7"/>
 <contactref element="J7" pad="4"/>
 <wire x1="47.383" y1="49.013" x2="92.084" y2="60.971" width="0" layer="19" extent="1-1"/>
