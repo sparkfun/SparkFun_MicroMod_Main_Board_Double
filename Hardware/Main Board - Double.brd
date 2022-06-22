@@ -12247,9 +12247,13 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="NAME" x="45.212" y="50.8" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="45.085" y="47.498" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="SHLD" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="-16.51" y="-24.13" smashed="yes">
-<attribute name="NAME" x="-16.51" y="-22.987" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="-16.51" y="-25.273" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="SHLD" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="11.43" y="2.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.43" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="11.43" y="3.683" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+</element>
+<element name="J12" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="34.29" y="72.39" smashed="yes">
+<attribute name="NAME" x="33.02" y="73.787" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="33.02" y="70.358" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 </elements>
 <signals>
@@ -12583,7 +12587,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="43.32" y1="20.9804" x2="36.622" y2="12.205" width="0" layer="19" extent="1-1"/>
 <wire x1="81.22" y1="21.0566" x2="71.3362" y2="41.481" width="0" layer="19" extent="1-1"/>
 <wire x1="46.843" y1="48.503" x2="6.935" y2="6.4164" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.0307" y1="-24.13" x2="46.843" y2="48.503" width="0" layer="19" extent="1-1"/>
+<wire x1="11.9507" y1="2.54" x2="46.843" y2="48.503" width="0" layer="19" extent="1-1"/>
 <wire x1="119.62" y1="21.0058" x2="81.22" y2="21.0566" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_BATT" class="1">
@@ -13199,7 +13203,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U1" pad="P6"/>
 <wire x1="47.243" y1="48.503" x2="23.706" y2="52.773" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="A1-PROCESSOR">
+<signal name="A1-PROCESSOR/CS0-ALT">
 <contactref element="J1" pad="38"/>
 <contactref element="J7" pad="38"/>
 <wire x1="28.956" y1="45.223" x2="28.956" y2="38.3744375" width="0.2032" layer="1"/>
@@ -13215,6 +13219,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="81.9658" y1="51.816" x2="77.2595" y2="56.5223" width="0.2032" layer="16"/>
 <via x="77.2595" y="56.5223" extent="1-16" drill="0.3048"/>
 <wire x1="98.552" y1="56.388" x2="86.7664" y2="56.388" width="0.2032" layer="1"/>
+<contactref element="J12" pad="1"/>
+<wire x1="28.956" y1="45.223" x2="34.29" y2="72.517" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A0-PROCESSOR">
 <contactref element="J1" pad="34"/>
@@ -13232,7 +13238,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="64.3636" y1="65.6336" x2="62.23" y2="63.5" width="0.2032" layer="1"/>
 </signal>
 <signal name="!CS0!-PROCESSOR">
-<contactref element="J1" pad="55"/>
 <contactref element="J6" pad="49"/>
 <wire x1="33.5788" y1="54.3306" x2="62.9666" y2="54.3306" width="0.2032" layer="1"/>
 <wire x1="65.8876" y1="57.2516" x2="72.136" y2="57.2516" width="0.2032" layer="1"/>
@@ -13251,7 +13256,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="62.9666" y1="54.3306" x2="65.8876" y2="57.2516" width="0.2032" layer="1"/>
 <wire x1="71.5518" y1="62.4332" x2="67.2084" y2="62.4332" width="0.2032" layer="1"/>
 <wire x1="33.206" y1="53.9578" x2="33.5788" y2="54.3306" width="0.2032" layer="1"/>
-<wire x1="33.206" y1="52.773" x2="33.206" y2="53.9578" width="0.2032" layer="1"/>
+<contactref element="J12" pad="3"/>
+<wire x1="39.37" y1="72.517" x2="33.206" y2="53.9578" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_PROCESSOR_SDO">
 <contactref element="J1" pad="59"/>
@@ -13400,6 +13406,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="2.4762" y1="63.5058" x2="1.8412" y2="63.5058" width="0.2032" layer="1"/>
 <wire x1="1.8412" y1="63.5058" x2="0.508" y2="62.1726" width="0.2032" layer="1"/>
 <wire x1="0.508" y1="56.2356" x2="0.508" y2="62.1726" width="0.2032" layer="1"/>
+<contactref element="J6" pad="68"/>
+<contactref element="J7" pad="68"/>
+<wire x1="69.73" y1="60.971" x2="108.084" y2="60.971" width="0" layer="19" extent="1-1"/>
+<wire x1="20.956" y1="45.223" x2="69.73" y2="60.971" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!BOOT!">
 <contactref element="J1" pad="11"/>
@@ -13429,6 +13439,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="54.4703" y1="58.2803" x2="29.40516875" y2="58.2803" width="0.2032" layer="1"/>
 <wire x1="29.237734375" y1="58.447734375" x2="29.40516875" y2="58.2803" width="0.2032" layer="1"/>
 <wire x1="54.4703" y1="58.2803" x2="54.61" y2="58.42" width="0.2032" layer="1"/>
+<contactref element="J6" pad="66"/>
+<contactref element="J7" pad="66"/>
+<wire x1="69.23" y1="60.971" x2="107.584" y2="60.971" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="58.42" x2="69.23" y2="60.971" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PROCESSOR_CAN-TX">
 <contactref element="J1" pad="43"/>
@@ -13920,6 +13934,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="65.024" y1="53.594" x2="63.8302" y2="53.594" width="0.2032" layer="1"/>
 <wire x1="63.8302" y1="53.594" x2="63.4746" y2="53.2384" width="0.2032" layer="1"/>
 <wire x1="43.434" y1="59.944" x2="43.942" y2="60.452" width="0.2032" layer="1"/>
+<wire x1="43.434" y1="58.788296875" x2="43.434" y2="58.7883" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="G7-PROCESSOR">
 <contactref element="J1" pad="69"/>
@@ -13945,7 +13960,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="63.885675" y1="52.776525" x2="64.139675" y2="53.030525" width="0.2032" layer="1"/>
 <wire x1="63.885675" y1="52.776525" x2="45.30075" y2="52.776525" width="0.2032" layer="1"/>
 </signal>
-<signal name="G8-PROCESSOR">
+<signal name="SPI_SDO1-PROCESSOR">
 <contactref element="J7" pad="59"/>
 <contactref element="J1" pad="62"/>
 <wire x1="34.956" y1="42.2346" x2="36.957" y2="40.2336" width="0.2032" layer="1"/>
@@ -14006,7 +14021,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="76.2202" y1="66.0146" x2="66.2686" y2="66.0146" width="0.2032" layer="1"/>
 <wire x1="66.2686" y1="66.0146" x2="65.48" y2="66.8032" width="0.2032" layer="1"/>
 </signal>
-<signal name="G9-PROCESSOR">
+<signal name="SPI_SCK1-PROCESSOR">
 <contactref element="J1" pad="60"/>
 <contactref element="J7" pad="61"/>
 <wire x1="36.6482875" y1="39.5558" x2="54.8679125" y2="39.5558" width="0.2032" layer="1"/>
@@ -14157,6 +14172,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="5.842" y="0"/>
 <vertex x="5.842" y="6.35"/>
 </polygon>
+<contactref element="J3" pad="SHLD4"/>
+<contactref element="J3" pad="SHLD2"/>
+<contactref element="J3" pad="SHLD1"/>
+<contactref element="J3" pad="SHLD3"/>
+<contactref element="SHLD" pad="2"/>
+<wire x1="14.478" y1="1.6614" x2="14.478" y2="5.8414" width="0" layer="19" extent="1-1"/>
+<wire x1="10.9093" y1="2.54" x2="14.478" y2="1.6614" width="0" layer="19" extent="1-1"/>
+<wire x1="5.842" y1="1.6614" x2="10.9093" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="5.842" y1="5.8414" x2="5.842" y2="1.6614" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U2" pad="5"/>
@@ -14250,21 +14274,21 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U1" pad="P2"/>
 <wire x1="46.333" y1="49.413" x2="54.23" y2="60.971" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$11">
-<contactref element="J3" pad="SHLD4"/>
-<contactref element="J3" pad="SHLD2"/>
-<contactref element="J3" pad="SHLD1"/>
-<contactref element="J3" pad="SHLD3"/>
-<contactref element="SHLD" pad="2"/>
-<wire x1="5.842" y1="1.6614" x2="-15.9893" y2="-24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="5.842" y1="5.8414" x2="5.842" y2="1.6614" width="0" layer="19" extent="1-1"/>
-<wire x1="14.478" y1="5.8414" x2="5.842" y2="5.8414" width="0" layer="19" extent="1-1"/>
-<wire x1="14.478" y1="1.6614" x2="14.478" y2="5.8414" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="TX1-AUX_RX-FC1-PLEX">
 <contactref element="U1" pad="P7"/>
 <contactref element="J7" pad="4"/>
 <wire x1="47.383" y1="49.013" x2="92.084" y2="60.971" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="I2C_SCL1-PROCESSOR">
+<contactref element="J1" pad="53"/>
+</signal>
+<signal name="I2C_SDA1-PROCESSOR">
+<contactref element="J1" pad="51"/>
+</signal>
+<signal name="!CS0!-JUMPER">
+<contactref element="J12" pad="2"/>
+<contactref element="J1" pad="55"/>
+<wire x1="36.83" y1="72.263" x2="33.206" y2="52.773" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
