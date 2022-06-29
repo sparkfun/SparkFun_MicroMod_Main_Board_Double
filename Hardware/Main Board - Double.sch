@@ -30852,13 +30852,6 @@ Jumper to suit your project's needs.
 <wire x1="223.52" y1="213.36" x2="223.52" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PWR_EN0" class="0">
-<segment>
-<wire x1="27.94" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
-<label x="25.4" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J6" gate="J1" pin="PWR_EN"/>
-</segment>
-</net>
 <net name="SDIO_DATA1/PWR_EN1_ALT" class="0">
 <segment>
 <wire x1="119.38" y1="99.06" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
@@ -31938,6 +31931,11 @@ Jumper to suit your project's needs.
 <pinref part="J1" gate="J1" pin="SDIO_DATA2"/>
 <wire x1="91.44" y1="236.22" x2="93.98" y2="236.22" width="0.1524" layer="91"/>
 <label x="93.98" y="236.22" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="27.94" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<label x="25.4" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J6" gate="J1" pin="PWR_EN"/>
 </segment>
 </net>
 </nets>
