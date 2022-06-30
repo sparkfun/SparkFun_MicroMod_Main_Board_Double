@@ -30370,7 +30370,6 @@ Jumper to suit your project's needs.
 </instance>
 <instance part="VE" gate="G$1" x="345.44" y="223.52" smashed="yes">
 <attribute name="NAME" x="344.17" y="225.552" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="342.9" y="220.98" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="3V3_LED" gate="G$1" x="216.916" y="149.606" smashed="yes" rot="R90">
 <attribute name="NAME" x="214.884" y="144.78" size="1.778" layer="95" font="vector" rot="R90"/>
