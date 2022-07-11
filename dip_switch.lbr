@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -425,7 +425,7 @@ fabricated in silicon gate CMOS technology&lt;/p&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="V_REG_AP7347DQ" prefix="U">
+<deviceset name="AP7347DQ-33W5-7" prefix="U">
 <description>&lt;h3&gt;AP7347DQ - 500mA CMOS LDO Regulator w/ Enable&lt;/h3&gt;
 &lt;p&gt;The AP2112 is CMOS process low dropout linear regulator with enable function, the regulator delivers a guaranteed 600mA (min.) continuous load current.&lt;/p&gt;
 &lt;p&gt;Features&lt;br&gt;
@@ -461,7 +461,6 @@ fabricated in silicon gate CMOS technology&lt;/p&gt;</description>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value=""/>
-<attribute name="VALUE" value="3.3V"/>
 </technology>
 </technologies>
 </device>

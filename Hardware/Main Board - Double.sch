@@ -30296,7 +30296,7 @@ fabricated in silicon gate CMOS technology&lt;/p&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="V_REG_AP7347DQ" prefix="U">
+<deviceset name="AP7347DQ-33W5-7" prefix="U">
 <description>&lt;h3&gt;AP7347DQ - 500mA CMOS LDO Regulator w/ Enable&lt;/h3&gt;
 &lt;p&gt;The AP2112 is CMOS process low dropout linear regulator with enable function, the regulator delivers a guaranteed 600mA (min.) continuous load current.&lt;/p&gt;
 &lt;p&gt;Features&lt;br&gt;
@@ -30332,7 +30332,6 @@ fabricated in silicon gate CMOS technology&lt;/p&gt;</description>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value=""/>
-<attribute name="VALUE" value="3.3V"/>
 </technology>
 </technologies>
 </device>
@@ -30505,7 +30504,7 @@ fabricated in silicon gate CMOS technology&lt;/p&gt;</description>
 <part name="U3" library="SparkFun-DiscreteSemi" deviceset="TVS_DIODE_ARRAY" device="SMD" value="ESD Diode"/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="U4" library="dip_switch" deviceset="V_REG_AP7347DQ" device="K-3.3V" value="3.3V"/>
+<part name="U4" library="dip_switch" deviceset="AP7347DQ-33W5-7" device="K-3.3V" value="AP7347DQ-33W5-7K-3.3V"/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
@@ -31068,7 +31067,7 @@ USB Shield from Ground. </text>
 </instance>
 <instance part="U4" gate="G$1" x="406.4" y="165.1" smashed="yes">
 <attribute name="NAME" x="398.78" y="172.974" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="398.78" y="157.226" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="VALUE" x="390.906" y="149.098" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="GND22" gate="1" x="393.7" y="152.4" smashed="yes">
 <attribute name="VALUE" x="393.7" y="152.146" size="1.778" layer="96" font="vector" align="top-center"/>
