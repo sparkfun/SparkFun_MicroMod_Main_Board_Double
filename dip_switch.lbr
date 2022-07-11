@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -298,6 +298,62 @@
 <text x="-1.524" y="2.286" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.651" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="TSSOP6">
+<description>&lt;h3&gt;TSSOP-6&lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size: .46mm x .3mm&lt;/li&gt;
+&lt;li&gt;Pin count: 6 &lt;/li&gt;
+&lt;li&gt;Pin pitch: .65mm&lt;/li&gt;
+&lt;li&gt;Package Size: 2.2mm x 1.35mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G04.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<text x="-0.8448" y="2.3876" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-0.9478" y="-0.262" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<circle x="-0.3622" y="2.54" radius="0.254" width="0" layer="21"/>
+<wire x1="0" y1="2.2" x2="0" y2="0" width="0.1" layer="21"/>
+<wire x1="0" y1="0" x2="1.35" y2="0" width="0.1" layer="21"/>
+<wire x1="0" y1="2.2" x2="1.35" y2="2.2" width="0.1" layer="21"/>
+<wire x1="1.35" y1="2.2" x2="1.35" y2="0" width="0.1" layer="21"/>
+<smd name="P1" x="-0.294" y="1.75" dx="0.46" dy="0.3" layer="1"/>
+<smd name="P2" x="-0.294" y="1.1" dx="0.46" dy="0.3" layer="1"/>
+<smd name="P3" x="-0.294" y="0.45" dx="0.46" dy="0.3" layer="1"/>
+<smd name="P4" x="1.646" y="0.45" dx="0.46" dy="0.3" layer="1"/>
+<smd name="P5" x="1.646" y="1.1" dx="0.46" dy="0.3" layer="1"/>
+<smd name="P6" x="1.646" y="1.75" dx="0.46" dy="0.3" layer="1"/>
+</package>
+<package name="TSSOP14">
+<description>&lt;h3&gt;TSSOP-14&lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size: 1.55mm x .3mm&lt;/li&gt;
+&lt;li&gt;Pin count: 14&lt;/li&gt;
+&lt;li&gt;Pin pitch: .65mm &lt;/li&gt;
+&lt;li&gt;Package Size: 4.5mm 5.1mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.ti.com/lit/ds/symlink/sn74hcs4075.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1657538011300”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<circle x="-2.5062" y="2.881" radius="0.254" width="0" layer="21"/>
+<wire x1="-2.159" y1="-2.667" x2="-2.159" y2="2.433" width="0.1" layer="21"/>
+<wire x1="-2.159" y1="2.433" x2="2.341" y2="2.433" width="0.1" layer="21"/>
+<wire x1="2.341" y1="2.433" x2="2.341" y2="-2.667" width="0.1" layer="21"/>
+<wire x1="2.341" y1="-2.667" x2="-2.159" y2="-2.667" width="0.1" layer="21"/>
+<smd name="P1" x="-2.709" y="1.833" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P2" x="-2.709" y="1.183" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P3" x="-2.709" y="0.533" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P4" x="-2.709" y="-0.117" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P5" x="-2.709" y="-0.767" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P6" x="-2.709" y="-1.417" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P7" x="-2.709" y="-2.067" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P8" x="2.891" y="-2.067" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P9" x="2.891" y="-1.417" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P10" x="2.891" y="-0.767" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P11" x="2.891" y="-0.117" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P12" x="2.891" y="0.533" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P13" x="2.891" y="1.183" dx="1.55" dy="0.3" layer="1"/>
+<smd name="P14" x="2.891" y="1.833" dx="1.55" dy="0.3" layer="1"/>
+<text x="-1.397" y="2.794" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.397" y="-3.556" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIPSWITCH-01">
@@ -375,6 +431,105 @@ fabricated in silicon gate CMOS technology&lt;/p&gt;</description>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <pin name="3.3V_QWIIC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+<symbol name="DUAL_INVERTER">
+<description>&lt;h3&gt;Dual Inverter &lt;/h3&gt;</description>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<pin name="VCC" x="-10.16" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="-2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="1A" x="-10.16" y="2.54" visible="pin" length="short" direction="in"/>
+<pin name="1Y" x="7.62" y="2.54" visible="pin" length="short" direction="out" rot="R180"/>
+<text x="-7.62" y="8.382" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="95" font="vector">&gt;VALUE</text>
+<wire x1="-2.286" y1="2.54" x2="-2.286" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="-2.286" y1="1.27" x2="-2.286" y2="0" width="0.2032" layer="94"/>
+<wire x1="-2.286" y1="0" x2="-0.762" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="-0.762" y1="1.27" x2="-2.286" y2="2.54" width="0.2032" layer="94"/>
+<circle x="-0.254" y="1.27" radius="0.508" width="0.2032" layer="94"/>
+<wire x1="-2.286" y1="1.27" x2="-2.794" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="0.254" y1="1.27" x2="0.762" y2="1.27" width="0.2032" layer="94"/>
+<pin name="2A" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<pin name="2Y" x="7.62" y="0" visible="pin" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="TRIPLE_INPUT_OR_SCHMITT_TRIGGER">
+<description>&lt;h3&gt;Triple 3-Input OR Gates with Schmitt-Trigger Inputs&lt;/h3&gt;</description>
+<text x="-17.78" y="21.59" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-17.78" y="-12.7" size="1.778" layer="95" font="vector">&gt;VALUE</text>
+<wire x1="-17.78" y1="20.32" x2="-17.78" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<pin name="VCC" x="-20.32" y="17.78" visible="pin" length="short" direction="pwr"/>
+<pin name="1A" x="-20.32" y="15.24" visible="pin" length="short"/>
+<pin name="1B" x="-20.32" y="12.7" visible="pin" length="short"/>
+<pin name="1C" x="-20.32" y="10.16" visible="pin" length="short"/>
+<pin name="2A" x="-20.32" y="7.62" visible="pin" length="short"/>
+<pin name="2B" x="-20.32" y="5.08" visible="pin" length="short"/>
+<pin name="GND" x="-20.32" y="-7.62" visible="pin" length="short" direction="pwr"/>
+<pin name="3Y" x="0" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="2C" x="-20.32" y="2.54" visible="pin" length="short"/>
+<pin name="2Y" x="0" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="1Y" x="0" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="3A" x="-20.32" y="0" visible="pin" length="short"/>
+<pin name="3B" x="-20.32" y="-2.54" visible="pin" length="short"/>
+<pin name="3C" x="-20.32" y="-5.08" visible="pin" length="short"/>
+<wire x1="-11.43" y1="3.81" x2="-10.16" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="6.35" x2="-10.16" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="6.35" x2="-8.89" y2="5.08" width="0.254" layer="94" curve="-90"/>
+<wire x1="-8.89" y1="5.08" x2="-10.16" y2="3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="-11.43" y1="6.35" x2="-11.43" y2="3.81" width="0.254" layer="94" curve="-84.999799"/>
+<wire x1="-11.176" y1="5.842" x2="-12.192" y2="5.842" width="0.254" layer="94"/>
+<wire x1="-11.176" y1="4.318" x2="-12.192" y2="4.318" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="5.08" x2="-8.128" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TRIPLE_INPUT_AND_SCHMITT_TRIGGER">
+<description>&lt;h3&gt;Triple 3-Input OR Gates with Schmitt-Trigger Inputs&lt;/h3&gt;</description>
+<text x="-17.78" y="21.59" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-17.78" y="-12.7" size="1.778" layer="95" font="vector">&gt;VALUE</text>
+<wire x1="-17.78" y1="20.32" x2="-17.78" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<pin name="VCC" x="-20.32" y="17.78" visible="pin" length="short" direction="pwr"/>
+<pin name="1A" x="-20.32" y="15.24" visible="pin" length="short"/>
+<pin name="1B" x="-20.32" y="12.7" visible="pin" length="short"/>
+<pin name="1C" x="-20.32" y="10.16" visible="pin" length="short"/>
+<pin name="2A" x="-20.32" y="7.62" visible="pin" length="short"/>
+<pin name="2B" x="-20.32" y="5.08" visible="pin" length="short"/>
+<pin name="GND" x="-20.32" y="-7.62" visible="pin" length="short" direction="pwr"/>
+<pin name="3Y" x="0" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="2C" x="-20.32" y="2.54" visible="pin" length="short"/>
+<pin name="2Y" x="0" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="1Y" x="0" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="3A" x="-20.32" y="0" visible="pin" length="short"/>
+<pin name="3B" x="-20.32" y="-2.54" visible="pin" length="short"/>
+<pin name="3C" x="-20.32" y="-5.08" visible="pin" length="short"/>
+<wire x1="-11.43" y1="3.81" x2="-9.906" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="3.81" x2="-11.43" y2="4.318" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="4.318" x2="-11.43" y2="5.842" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="5.842" x2="-11.43" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="6.35" x2="-9.906" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-9.906" y1="6.35" x2="-8.636" y2="5.08" width="0.254" layer="94" curve="-90"/>
+<wire x1="-8.636" y1="5.08" x2="-9.906" y2="3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="-8.636" y1="5.08" x2="-8.128" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="4.318" x2="-11.938" y2="4.318" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="5.842" x2="-11.938" y2="5.842" width="0.254" layer="94"/>
+</symbol>
+<symbol name="GATE_OR_2">
+<wire x1="-10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94" curve="-84.999799"/>
+<pin name="B" x="-10.16" y="-2.54" length="point"/>
+<pin name="A" x="-10.16" y="2.54" length="point"/>
+<pin name="Y" x="5.08" y="0" length="short" rot="R180"/>
+<wire x1="-10.16" y1="2.54" x2="-8.636" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-8.636" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-10.16" y="5.842" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="95" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -476,6 +631,91 @@ fabricated in silicon gate CMOS technology&lt;/p&gt;</description>
 <device name="">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74HC2G04GV" prefix="U">
+<description>&lt;h3&gt;Nexperia - 74HC2G04GV Dual Inverter &lt;/h3&gt;
+&lt;p&gt;The 74HC2G04 is a dual inverter. Inputs include clamp diodes that enable the use of
+current limiting resistors to interface inputs to voltages in excess of VCC&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DUAL_INVERTER" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="TSSOP6">
+<connects>
+<connect gate="G$1" pin="1A" pad="P1"/>
+<connect gate="G$1" pin="1Y" pad="P4"/>
+<connect gate="G$1" pin="2A" pad="P3"/>
+<connect gate="G$1" pin="2Y" pad="P6"/>
+<connect gate="G$1" pin="GND" pad="P2"/>
+<connect gate="G$1" pin="VCC" pad="P5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN74HCS4075PWR" prefix="U">
+<gates>
+<gate name="G$1" symbol="TRIPLE_INPUT_OR_SCHMITT_TRIGGER" x="10.16" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="TSSOP14">
+<connects>
+<connect gate="G$1" pin="1A" pad="P3"/>
+<connect gate="G$1" pin="1B" pad="P4"/>
+<connect gate="G$1" pin="1C" pad="P5"/>
+<connect gate="G$1" pin="1Y" pad="P6"/>
+<connect gate="G$1" pin="2A" pad="P1"/>
+<connect gate="G$1" pin="2B" pad="P2"/>
+<connect gate="G$1" pin="2C" pad="P8"/>
+<connect gate="G$1" pin="2Y" pad="P9"/>
+<connect gate="G$1" pin="3A" pad="P11"/>
+<connect gate="G$1" pin="3B" pad="P12"/>
+<connect gate="G$1" pin="3C" pad="P13"/>
+<connect gate="G$1" pin="3Y" pad="P10"/>
+<connect gate="G$1" pin="GND" pad="P7"/>
+<connect gate="G$1" pin="VCC" pad="P14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN74HCS11PWR" prefix="U">
+<gates>
+<gate name="G$1" symbol="TRIPLE_INPUT_AND_SCHMITT_TRIGGER" x="10.16" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="TSSOP14">
+<connects>
+<connect gate="G$1" pin="1A" pad="P1"/>
+<connect gate="G$1" pin="1B" pad="P2"/>
+<connect gate="G$1" pin="1C" pad="P13"/>
+<connect gate="G$1" pin="1Y" pad="P12"/>
+<connect gate="G$1" pin="2A" pad="P3"/>
+<connect gate="G$1" pin="2B" pad="P4"/>
+<connect gate="G$1" pin="2C" pad="P5"/>
+<connect gate="G$1" pin="2Y" pad="P6"/>
+<connect gate="G$1" pin="3A" pad="P9"/>
+<connect gate="G$1" pin="3B" pad="P10"/>
+<connect gate="G$1" pin="3C" pad="P11"/>
+<connect gate="G$1" pin="3Y" pad="P8"/>
+<connect gate="G$1" pin="GND" pad="P7"/>
+<connect gate="G$1" pin="VCC" pad="P14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
