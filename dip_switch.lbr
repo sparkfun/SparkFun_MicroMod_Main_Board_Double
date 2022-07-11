@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -197,25 +197,25 @@
 <wire x1="0.75" y1="1.18" x2="0.75" y2="-1.12" width="0.1" layer="51"/>
 <wire x1="0.75" y1="-1.12" x2="-0.75" y2="-1.12" width="0.1" layer="51"/>
 <wire x1="-0.75" y1="-1.12" x2="-0.75" y2="1.18" width="0.1016" layer="51"/>
-<smd name="P4" x="-0.42" y="-0.9" dx="0.25" dy="0.45" layer="1" stop="no" cream="no"/>
-<smd name="P5" x="-0.02" y="-0.9" dx="0.25" dy="0.45" layer="1" stop="no" cream="no"/>
-<smd name="P6" x="0.38" y="-0.9" dx="0.25" dy="0.45" layer="1" stop="no" cream="no"/>
-<smd name="P10" x="0.38" y="0.95" dx="0.25" dy="0.45" layer="1" stop="no" cream="no"/>
-<smd name="P11" x="-0.02" y="0.95" dx="0.25" dy="0.45" layer="1" stop="no" cream="no"/>
-<smd name="P12" x="-0.42" y="0.95" dx="0.25" dy="0.45" layer="1" stop="no" cream="no"/>
-<smd name="P1" x="-0.53" y="0.41" dx="0.45" dy="0.25" layer="1" stop="no" cream="no"/>
-<smd name="P2" x="-0.53" y="0.01" dx="0.45" dy="0.25" layer="1" stop="no" cream="no"/>
-<smd name="P3" x="-0.53" y="-0.39" dx="0.45" dy="0.25" layer="1" stop="no" cream="no"/>
-<smd name="P7" x="0.52" y="-0.39" dx="0.45" dy="0.25" layer="1" stop="no" cream="no"/>
-<smd name="P8" x="0.52" y="0.01" dx="0.45" dy="0.25" layer="1" stop="no" cream="no"/>
-<smd name="P9" x="0.52" y="0.41" dx="0.45" dy="0.25" layer="1" stop="no" cream="no"/>
+<smd name="P4" x="-0.42" y="-0.96" dx="0.25" dy="0.6" layer="1" stop="no" cream="no"/>
+<smd name="P5" x="-0.02" y="-0.96" dx="0.25" dy="0.6" layer="1" stop="no" cream="no"/>
+<smd name="P6" x="0.38" y="-0.96" dx="0.25" dy="0.6" layer="1" stop="no" cream="no"/>
+<smd name="P10" x="0.38" y="1.01" dx="0.25" dy="0.6" layer="1" stop="no" cream="no"/>
+<smd name="P11" x="-0.02" y="1.01" dx="0.25" dy="0.6" layer="1" stop="no" cream="no"/>
+<smd name="P12" x="-0.42" y="1.01" dx="0.25" dy="0.6" layer="1" stop="no" cream="no"/>
+<smd name="P1" x="-0.59" y="0.41" dx="0.6" dy="0.25" layer="1" stop="no" cream="no"/>
+<smd name="P2" x="-0.59" y="0.01" dx="0.6" dy="0.25" layer="1" stop="no" cream="no"/>
+<smd name="P3" x="-0.59" y="-0.39" dx="0.6" dy="0.25" layer="1" stop="no" cream="no"/>
+<smd name="P7" x="0.58" y="-0.39" dx="0.6" dy="0.25" layer="1" stop="no" cream="no"/>
+<smd name="P8" x="0.58" y="0.01" dx="0.6" dy="0.25" layer="1" stop="no" cream="no"/>
+<smd name="P9" x="0.58" y="0.41" dx="0.6" dy="0.25" layer="1" stop="no" cream="no"/>
 <text x="-1.651" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.778" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <circle x="-1.143" y="1.27" radius="0.179603125" width="0" layer="21"/>
-<wire x1="-0.8382" y1="1.2446" x2="-0.8382" y2="-1.1938" width="0.1016" layer="39"/>
-<wire x1="-0.8382" y1="-1.1938" x2="0.8382" y2="-1.1938" width="0.1016" layer="39"/>
-<wire x1="0.8382" y1="-1.1938" x2="0.8382" y2="1.2446" width="0.1016" layer="39"/>
-<wire x1="0.8382" y1="1.2446" x2="-0.8382" y2="1.2446" width="0.1016" layer="39"/>
+<wire x1="-0.8482" y1="1.2846" x2="-0.8582" y2="-1.2238" width="0.1016" layer="39"/>
+<wire x1="-0.8582" y1="-1.2238" x2="0.8482" y2="-1.2338" width="0.1016" layer="39"/>
+<wire x1="0.8482" y1="-1.2338" x2="0.8582" y2="1.2846" width="0.1016" layer="39"/>
+<wire x1="0.8582" y1="1.2846" x2="-0.8482" y2="1.2846" width="0.1016" layer="39"/>
 <rectangle x1="-0.77" y1="0.27" x2="-0.29" y2="0.55" layer="29"/>
 <rectangle x1="-0.77" y1="-0.13" x2="-0.29" y2="0.15" layer="29"/>
 <rectangle x1="-0.77" y1="-0.53" x2="-0.29" y2="-0.25" layer="29"/>
