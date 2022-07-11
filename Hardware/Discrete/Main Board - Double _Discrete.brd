@@ -13804,7 +13804,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-00810" x="-29.21" y="-36.83" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="-29.21" y="-37.592" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U1" library="dip_switch" package="TSSOP14" value="SN74HCS4075PWR" x="-27.94" y="-43.18" smashed="yes">
+<element name="U1" library="dip_switch" package="TSSOP14" value="SN74HCS11PWR" x="-27.94" y="-43.18" smashed="yes">
 <attribute name="NAME" x="-29.337" y="-40.386" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="" x="-35.56" y="-34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="-29.337" y="-46.736" size="0.6096" layer="27" font="vector" ratio="20"/>
@@ -16434,6 +16434,33 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </signal>
 <signal name="N$8">
 <contactref element="U6" pad="P3"/>
+</signal>
+<signal name="N$9">
+<contactref element="U7" pad="P1"/>
+</signal>
+<signal name="N$16">
+<contactref element="U7" pad="P2"/>
+</signal>
+<signal name="N$17">
+<contactref element="U7" pad="P13"/>
+</signal>
+<signal name="N$18">
+<contactref element="U7" pad="P3"/>
+</signal>
+<signal name="N$19">
+<contactref element="U7" pad="P4"/>
+</signal>
+<signal name="N$20">
+<contactref element="U7" pad="P5"/>
+</signal>
+<signal name="N$21">
+<contactref element="U7" pad="P9"/>
+</signal>
+<signal name="N$22">
+<contactref element="U7" pad="P10"/>
+</signal>
+<signal name="N$23">
+<contactref element="U7" pad="P11"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

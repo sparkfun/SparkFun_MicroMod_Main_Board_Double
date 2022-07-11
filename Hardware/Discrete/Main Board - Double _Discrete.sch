@@ -30613,7 +30613,7 @@ current limiting resistors to interface inputs to voltages in excess of VCC&lt;/
 <part name="SUPPLY34" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY35" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY36" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="U1" library="dip_switch" deviceset="SN74HCS4075PWR" device=""/>
+<part name="U1" library="dip_switch" deviceset="SN74HCS11PWR" device=""/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -31224,19 +31224,19 @@ USB Shield from Ground. </text>
 <instance part="SUPPLY36" gate="G$1" x="281.94" y="60.96" smashed="yes">
 <attribute name="VALUE" x="281.94" y="63.754" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="U1" gate="G$1" x="317.5" y="-30.48" smashed="yes">
-<attribute name="NAME" x="299.72" y="-8.89" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="299.72" y="-43.18" size="1.778" layer="95" font="vector"/>
+<instance part="U1" gate="G$1" x="266.7" y="-5.08" smashed="yes">
+<attribute name="NAME" x="248.92" y="16.51" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="248.92" y="-17.78" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="C13" gate="G$1" x="284.48" y="-20.32" smashed="yes">
-<attribute name="NAME" x="286.004" y="-17.399" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="286.004" y="-22.479" size="1.778" layer="96" font="vector"/>
+<instance part="C13" gate="G$1" x="236.22" y="5.08" smashed="yes">
+<attribute name="NAME" x="237.744" y="8.001" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="237.744" y="2.921" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND18" gate="1" x="284.48" y="-43.18" smashed="yes">
-<attribute name="VALUE" x="284.48" y="-43.434" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND18" gate="1" x="236.22" y="-17.78" smashed="yes">
+<attribute name="VALUE" x="236.22" y="-18.034" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY18" gate="G$1" x="284.48" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="284.48" y="-7.366" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY18" gate="G$1" x="236.22" y="15.24" smashed="yes">
+<attribute name="VALUE" x="236.22" y="18.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -31336,11 +31336,11 @@ USB Shield from Ground. </text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="297.18" y1="-12.7" x2="284.48" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="12.7" x2="236.22" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="-12.7" x2="284.48" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="-12.7" x2="284.48" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="284.48" y="-12.7"/>
+<wire x1="236.22" y1="10.16" x2="236.22" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="12.7" x2="236.22" y2="15.24" width="0.1524" layer="91"/>
+<junction x="236.22" y="12.7"/>
 <pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
@@ -31597,12 +31597,12 @@ USB Shield from Ground. </text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="297.18" y1="-38.1" x2="284.48" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="-38.1" x2="284.48" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="-12.7" x2="236.22" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-12.7" x2="236.22" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="-22.86" x2="284.48" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="284.48" y="-38.1"/>
+<wire x1="236.22" y1="2.54" x2="236.22" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="236.22" y="-12.7"/>
 </segment>
 </net>
 <net name="SDIO_DATA1/PWR_EN1_ALT" class="0">
@@ -32699,6 +32699,60 @@ USB Shield from Ground. </text>
 <segment>
 <pinref part="U6" gate="G$1" pin="2A"/>
 <wire x1="205.74" y1="50.8" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="1A"/>
+<wire x1="243.84" y1="55.88" x2="246.38" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="1B"/>
+<wire x1="243.84" y1="53.34" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="1C"/>
+<wire x1="243.84" y1="50.8" x2="246.38" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="2A"/>
+<wire x1="243.84" y1="48.26" x2="246.38" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="2B"/>
+<wire x1="243.84" y1="45.72" x2="246.38" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="2C"/>
+<wire x1="243.84" y1="43.18" x2="246.38" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="3A"/>
+<wire x1="243.84" y1="40.64" x2="246.38" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="3B"/>
+<wire x1="243.84" y1="38.1" x2="246.38" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="3C"/>
+<wire x1="243.84" y1="35.56" x2="246.38" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
