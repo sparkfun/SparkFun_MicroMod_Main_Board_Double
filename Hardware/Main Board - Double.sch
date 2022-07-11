@@ -30560,9 +30560,8 @@ control of 3.3V bus.</text>
 <wire x1="365.76" y1="195.58" x2="431.8" y2="195.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="274.32" y1="76.2" x2="330.2" y2="76.2" width="0.2032" layer="97" style="longdash"/>
 <wire x1="274.32" y1="195.58" x2="274.32" y2="132.08" width="0.2032" layer="97" style="longdash"/>
-<text x="294.64" y="121.92" size="2.54" layer="94" font="vector">Buttons</text>
+<text x="302.26" y="124.46" size="2.54" layer="94" font="vector" align="center">Buttons</text>
 <text x="350.52" y="10.16" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="323.596" y="185.42" size="2.54" layer="97" font="vector" rot="R180">500mA</text>
 <wire x1="165.1" y1="0" x2="165.1" y2="27.94" width="0.2032" layer="97" style="longdash"/>
 <wire x1="165.1" y1="27.94" x2="187.96" y2="27.94" width="0.2032" layer="97" style="longdash"/>
 <wire x1="167.64" y1="132.08" x2="167.64" y2="160.02" width="0.2032" layer="97" style="longdash"/>
@@ -30629,6 +30628,12 @@ Jumper to suit your project's needs.
 <wire x1="274.32" y1="76.2" x2="187.96" y2="76.2" width="0.2032" layer="97" style="longdash"/>
 <text x="259.08" y="68.58" size="2.54" layer="94" font="vector" align="center">UART Multiplexer</text>
 <wire x1="365.76" y1="132.08" x2="365.76" y2="195.58" width="0.2032" layer="97" style="longdash"/>
+<text x="400.812" y="190.5" size="2.54" layer="94" font="vector" align="center">Qwiic Voltage Regulation - AP7347DQ</text>
+<text x="393.7" y="182.88" size="1.27" layer="97" font="vector">Input: 1.7 - 5.5V
+Output: 500mA Max</text>
+<text x="304.8" y="182.88" size="1.778" layer="97" font="vector">Output: 500mA </text>
+<text x="208.28" y="200.66" size="1.778" layer="97" font="vector">Cut SHLD jumper to disconnect
+USB Shield from Ground. </text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="360.68" y="78.74" smashed="yes">
