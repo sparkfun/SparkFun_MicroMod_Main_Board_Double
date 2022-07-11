@@ -13670,7 +13670,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$17" library="SparkFun-MicroMod" package="MICROMOD_LOGO_1" value="" x="62.23" y="48.26" smashed="yes" rot="MR0"/>
 <element name="U$22" library="SparkFun-Aesthetics" package="QWIIC_3MM" value="" x="121.9708" y="54.5592" smashed="yes"/>
 <element name="U$23" library="top" package="STANDOFF501" value="" x="121.8438" y="53.3908" smashed="yes"/>
-<element name="U$24" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.3" value="" x="130.302" y="58.674" smashed="yes" rot="R180"/>
+<element name="U$24" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.3" value="" x="94.234" y="51.054" smashed="yes"/>
 <element name="R6" library="SparkFun-Resistors" package="0603" value="10k" x="120.142" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="120.904" y="60.96" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="120.142" y="60.96" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
