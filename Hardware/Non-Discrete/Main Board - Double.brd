@@ -14120,6 +14120,23 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="47.371" y="3.6068" extent="1-16" drill="0.3048"/>
 <via x="84.7214" y="41.958" extent="1-16" drill="0.3048"/>
 <via x="111.0234" y="63.2206" extent="1-16" drill="0.3048"/>
+<via x="66.04" y="66.04" extent="1-16" drill="0.3048"/>
+<via x="66.04" y="57.15" extent="1-16" drill="0.3048"/>
+<via x="74.93" y="57.15" extent="1-16" drill="0.3048"/>
+<via x="57.15" y="66.04" extent="1-16" drill="0.3048"/>
+<via x="57.15" y="57.15" extent="1-16" drill="0.3048"/>
+<via x="48.26" y="57.15" extent="1-16" drill="0.3048"/>
+<via x="48.26" y="66.04" extent="1-16" drill="0.3048"/>
+<via x="36.83" y="66.04" extent="1-16" drill="0.3048"/>
+<via x="36.83" y="57.15" extent="1-16" drill="0.3048"/>
+<via x="27.94" y="57.15" extent="1-16" drill="0.3048"/>
+<via x="27.94" y="66.04" extent="1-16" drill="0.3048"/>
+<via x="19.05" y="66.04" extent="1-16" drill="0.3048"/>
+<via x="19.05" y="57.15" extent="1-16" drill="0.3048"/>
+<via x="10.16" y="57.15" extent="1-16" drill="0.3048"/>
+<via x="10.16" y="66.04" extent="1-16" drill="0.3048"/>
+<via x="86.614" y="49.149" extent="1-16" drill="0.3048"/>
+<via x="86.614" y="45.72" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="V_BATT" class="1">
 <contactref element="U2" pad="3"/>
@@ -16109,51 +16126,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="87.034" y1="60.794" x2="86.838" y2="60.99" width="0.5588" layer="1"/>
 <wire x1="86.86" y1="68.58" x2="86.86" y2="64.017" width="0.5588" layer="1"/>
 <wire x1="86.86" y1="64.017" x2="86.838" y2="63.995" width="0.5588" layer="1"/>
-</signal>
-<signal name="GND1" airwireshidden="yes">
-<via x="57.15" y="66.04" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND2" airwireshidden="yes">
-<via x="66.04" y="66.04" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND3" airwireshidden="yes">
-<via x="48.26" y="66.04" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND4" airwireshidden="yes">
-<via x="36.83" y="66.04" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND5" airwireshidden="yes">
-<via x="19.05" y="66.04" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND6" airwireshidden="yes">
-<via x="27.94" y="66.04" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND7" airwireshidden="yes">
-<via x="10.16" y="66.04" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND8" airwireshidden="yes">
-<via x="74.93" y="57.15" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND9" airwireshidden="yes">
-<via x="57.15" y="57.15" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND10" airwireshidden="yes">
-<via x="66.04" y="57.15" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND11" airwireshidden="yes">
-<via x="48.26" y="57.15" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND12" airwireshidden="yes">
-<via x="36.83" y="57.15" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND13" airwireshidden="yes">
-<via x="19.05" y="57.15" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND14" airwireshidden="yes">
-<via x="27.94" y="57.15" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="GND15" airwireshidden="yes">
-<via x="10.16" y="57.15" extent="1-16" drill="0.3048"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
