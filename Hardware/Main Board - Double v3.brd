@@ -19119,7 +19119,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="95.25" y="58.9788" extent="1-16" drill="0.3048"/>
 <wire x1="110.6" y1="7.35" x2="110.457" y2="7.493" width="0.5588" layer="1"/>
 <wire x1="110.457" y1="7.493" x2="106.934" y2="7.493" width="0.5588" layer="1"/>
-<wire x1="80.4164" y1="0.5588" x2="78.7654" y2="3.4798" width="0" layer="19" extent="1-1"/>
+<wire x1="78.7654" y1="3.4798" x2="80.4164" y2="0.5588" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_BATT" class="1">
 <contactref element="U2" pad="3"/>
@@ -20566,9 +20566,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="79.85886875" y1="4.0314" x2="83.6676" y2="4.0314" width="0.2032" layer="1"/>
 <wire x1="83.6676" y1="4.0314" x2="84.292" y2="4.6558" width="0.2032" layer="1"/>
 <wire x1="84.292" y1="4.6558" x2="84.292" y2="5.052" width="0.2032" layer="1"/>
-<wire x1="79.6094" y1="3.4892" x2="79.6348" y2="3.4638" width="0.2032" layer="16"/>
-<wire x1="79.6348" y1="3.4638" x2="79.6348" y2="0.5646" width="0.2032" layer="16"/>
-<wire x1="79.6348" y1="0.5646" x2="79.629" y2="0.5588" width="0.2032" layer="16"/>
+<wire x1="79.629" y1="0.5588" x2="79.629" y2="3.4696" width="0.2032" layer="16"/>
+<wire x1="79.629" y1="3.4696" x2="79.6094" y2="3.4892" width="0.2032" layer="16"/>
 </signal>
 <signal name="G7-PROCESSOR">
 <contactref element="J1" pad="69"/>
@@ -21111,10 +21110,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="116.93946875" y="63.56653125"/>
 </polygon>
 <contactref element="U3" pad="5"/>
-<wire x1="114.1003" y1="63.246" x2="113.03" y2="63.246" width="0.2032" layer="1"/>
-<via x="113.03" y="63.246" extent="1-16" drill="0.3048"/>
+<wire x1="114.1003" y1="63.246" x2="113.0046" y2="63.246" width="0.2032" layer="1"/>
+<via x="113.0046" y="63.246" extent="1-16" drill="0.3048"/>
 <wire x1="117.221" y1="63.246" x2="117.4242" y2="63.0428" width="0.2032" layer="16"/>
-<wire x1="113.03" y1="63.246" x2="117.221" y2="63.246" width="0.2032" layer="16"/>
+<wire x1="113.0046" y1="63.246" x2="117.221" y2="63.246" width="0.2032" layer="16"/>
 </signal>
 <signal name="!CS1!-PROC-JUMPER">
 <contactref element="S8" pad="2"/>
@@ -21331,15 +21330,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="3,16,5798533730aba5de"/>
 <approved hash="3,16,3639837982793739"/>
 <approved hash="3,16,5deefeaefd2b5e6b"/>
-<approved hash="19,1,5397d0f88c248376"/>
-<approved hash="19,16,8456ca2f86eda560"/>
-<approved hash="19,16,12243bc4275f3b1f"/>
-<approved hash="19,16,8081ac150a91163b"/>
-<approved hash="19,16,0c44be6040d958f7"/>
-<approved hash="19,16,e01f707b7746f0ae"/>
-<approved hash="19,16,c7fbaf21f2b9d43d"/>
-<approved hash="19,16,a401cc7b919fb7f3"/>
-<approved hash="19,1,78466a4e75136bcd"/>
 <approved hash="3,1,1a439b0398001940"/>
 <approved hash="3,1,e151e1b0def403cf"/>
 <approved hash="3,1,b3a491649241b081"/>
@@ -21349,6 +21339,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="3,1,819911d911fc81bc"/>
 <approved hash="3,16,374dfa0dfa2f376f"/>
 <approved hash="3,16,acc72fe4e624a741"/>
+<approved hash="19,1,fa1bc0bbaebbaa1b"/>
+<approved hash="19,1,ed9d108f3e723a9a"/>
+<approved hash="19,16,201e2079e009a01e"/>
+<approved hash="19,16,f8a3c6f4d8ced8bf"/>
+<approved hash="19,16,27c22da293a597c2"/>
+<approved hash="19,16,20a22175e18da0ba"/>
+<approved hash="19,16,2e9d2e9d21192e9d"/>
+<approved hash="19,16,8f3d213a0971640d"/>
+<approved hash="19,16,225b24788246835f"/>
 </errors>
 </board>
 </drawing>
