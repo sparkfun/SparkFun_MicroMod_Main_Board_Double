@@ -56640,10 +56640,10 @@ fabricated in silicon gate CMOS technology&lt;/p&gt;</description>
 <part name="SUPPLY3" library="dip_switch" deviceset="3.3V_QWIIC" device=""/>
 <part name="SUPPLY11" library="dip_switch" deviceset="3.3V_QWIIC" device=""/>
 <part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="VIN_REMOVE" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
+<part name="DIVIDER" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="QW_PWR_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
+<part name="QWIIC_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY34" library="dip_switch" deviceset="3.3V_QWIIC" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="10UF" device="-0805-10V-10%" value="10uF"/>
@@ -56777,6 +56777,8 @@ Output: 500mA Max</text>
 <text x="208.28" y="200.66" size="1.778" layer="97" font="vector">Cut SHLD jumper to disconnect
 USB Shield from Ground. </text>
 <wire x1="274.32" y1="195.58" x2="274.32" y2="132.08" width="0.2032" layer="97" style="longdash"/>
+<text x="10.16" y="134.62" size="1.778" layer="97" font="vector">Cut trace to remove resistor divider.
+Good for deep sleep power considerations.</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="360.68" y="78.74" smashed="yes">
@@ -57232,8 +57234,8 @@ USB Shield from Ground. </text>
 <instance part="SUPPLY29" gate="G$1" x="419.1" y="96.52" smashed="yes">
 <attribute name="VALUE" x="419.1" y="99.314" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="VIN_REMOVE" gate="G$1" x="5.08" y="144.78" smashed="yes" rot="MR90">
-<attribute name="NAME" x="14.478" y="144.78" size="1.778" layer="95" font="vector" rot="MR0" align="center"/>
+<instance part="DIVIDER" gate="G$1" x="5.08" y="144.78" smashed="yes" rot="MR90">
+<attribute name="NAME" x="11.938" y="144.78" size="1.778" layer="95" font="vector" rot="MR0" align="center"/>
 </instance>
 <instance part="D2" gate="G$1" x="226.06" y="162.814" smashed="yes">
 <attribute name="NAME" x="222.631" y="158.242" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -57243,8 +57245,8 @@ USB Shield from Ground. </text>
 <attribute name="NAME" x="224.536" y="172.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="227.584" y="172.72" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="QW_PWR_LED" gate="G$1" x="226.06" y="149.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="223.012" y="140.716" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="QWIIC_LED" gate="G$1" x="226.06" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="223.012" y="143.51" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="GND30" gate="1" x="226.06" y="139.7" smashed="yes">
 <attribute name="VALUE" x="226.06" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -57598,13 +57600,13 @@ USB Shield from Ground. </text>
 </segment>
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="VIN_REMOVE" gate="G$1" pin="1"/>
+<pinref part="DIVIDER" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="139.7" x2="5.08" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="226.06" y1="142.24" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="QW_PWR_LED" gate="G$1" pin="1"/>
+<pinref part="QWIIC_LED" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -58762,14 +58764,14 @@ USB Shield from Ground. </text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="VIN_REMOVE" gate="G$1" pin="2"/>
+<pinref part="DIVIDER" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="152.4" x2="5.08" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="QW_PWR_LED" gate="G$1" pin="2"/>
+<pinref part="QWIIC_LED" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="154.94" x2="226.06" y2="157.734" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 </segment>
