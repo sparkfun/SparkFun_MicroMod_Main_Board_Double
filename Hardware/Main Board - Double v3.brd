@@ -15,8 +15,8 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -34,7 +34,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -15618,7 +15618,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="95.4024" y="5.3848" extent="1-16" drill="0.3048"/>
 <via x="104.14" y="3.3528" extent="1-16" drill="0.3048"/>
 <via x="88.5444" y="0.9652" extent="1-16" drill="0.3048"/>
-<via x="80.4164" y="0.5588" extent="1-16" drill="0.3048"/>
 <via x="80.6704" y="5.1308" extent="1-16" drill="0.3048"/>
 <via x="39.6707875" y="20.5486" extent="1-16" drill="0.3048"/>
 <via x="77.6478" y="22.2758" extent="1-16" drill="0.3048"/>
@@ -15658,7 +15657,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="R19" pad="2"/>
 <via x="94.7166" y="48.9712" extent="1-16" drill="0.3048"/>
 <via x="113.4364" y="15.367" extent="1-16" drill="0.3048"/>
-<wire x1="80.4164" y1="0.5588" x2="78.7654" y2="3.4798" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_BATT" class="1">
 <contactref element="U2" pad="3"/>
