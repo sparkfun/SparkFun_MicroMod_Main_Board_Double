@@ -223,7 +223,7 @@
 <dimension x1="114.3" y1="6.35" x2="114.3" y2="0" x3="135.89" y3="3.175" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="121.92" y1="12.7" x2="123.19" y2="0" x3="143.51" y3="6.35" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="121.92" y1="2.54" x2="124.46" y2="2.54" x3="123.19" y3="-3.81" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<text x="62.23" y="-2.032" size="1.778" layer="20" ratio="15" align="center">Route Out</text>
+<text x="62.23" y="-2.032" size="1.778" layer="20" font="vector" ratio="15" align="center">Route Out</text>
 <wire x1="0" y1="151.384" x2="124.46" y2="151.384" width="0.2032" layer="20"/>
 <wire x1="124.46" y1="77.724" x2="0" y2="77.724" width="0.2032" layer="20"/>
 <wire x1="0" y1="77.724" x2="0" y2="151.384" width="0.2032" layer="20"/>
@@ -264,7 +264,7 @@
 <dimension x1="114.3" y1="84.074" x2="114.3" y2="77.724" x3="135.89" y3="80.899" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="121.92" y1="90.424" x2="123.19" y2="77.724" x3="143.51" y3="84.074" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="121.92" y1="80.264" x2="124.46" y2="80.264" x3="123.19" y3="73.914" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<text x="62.23" y="75.692" size="1.778" layer="20" ratio="15" align="center">Route Out</text>
+<text x="62.23" y="75.692" size="1.778" layer="20" font="vector" ratio="15" align="center">Route Out</text>
 <wire x1="0" y1="229.108" x2="124.46" y2="229.108" width="0.2032" layer="20"/>
 <wire x1="124.46" y1="155.448" x2="0" y2="155.448" width="0.2032" layer="20"/>
 <wire x1="0" y1="155.448" x2="0" y2="229.108" width="0.2032" layer="20"/>
@@ -305,12 +305,12 @@
 <dimension x1="114.3" y1="161.798" x2="114.3" y2="155.448" x3="135.89" y3="158.623" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="121.92" y1="168.148" x2="123.19" y2="155.448" x3="143.51" y3="161.798" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="121.92" y1="157.988" x2="124.46" y2="157.988" x3="123.19" y3="151.638" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<text x="62.23" y="153.416" size="1.778" layer="20" ratio="15" align="center">Route Out</text>
-<text x="62.23" y="231.14" size="1.778" layer="20" ratio="15" align="center">Route Out</text>
+<text x="62.23" y="153.416" size="1.778" layer="20" font="vector" ratio="15" align="center">Route Out</text>
+<text x="62.23" y="231.14" size="1.778" layer="20" font="vector" ratio="15" align="center">Route Out</text>
 <wire x1="-0.254" y1="-10.414" x2="-0.254" y2="243.586" width="0.381" layer="46"/>
-<text x="-0.254" y="245.872" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="-0.254" y="245.872" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="124.714" y1="-10.414" x2="124.714" y2="243.586" width="0.381" layer="46"/>
-<text x="124.714" y="245.872" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="124.714" y="245.872" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="-4.064" x2="131.318" y2="-4.064" width="0.254" layer="20"/>
 <wire x1="131.318" y1="-4.064" x2="131.318" y2="-10.414" width="0.254" layer="20"/>
 <wire x1="131.318" y1="-10.414" x2="-6.858" y2="-10.414" width="0.254" layer="20"/>
@@ -10535,177 +10535,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.47" y="-0.12"/>
 </polygon>
 </package>
-<package name="#PTC#503">
-<polygon width="0.01" layer="21">
-<vertex x="-1.55" y="0.68"/>
-<vertex x="-1.62" y="0.67"/>
-<vertex x="-1.69" y="0.66"/>
-<vertex x="-1.75" y="0.64"/>
-<vertex x="-1.82" y="0.62"/>
-<vertex x="-1.88" y="0.59"/>
-<vertex x="-1.93" y="0.55"/>
-<vertex x="-1.99" y="0.51"/>
-<vertex x="-2.03" y="0.46"/>
-<vertex x="-2.08" y="0.41"/>
-<vertex x="-2.12" y="0.35"/>
-<vertex x="-2.15" y="0.29"/>
-<vertex x="-2.17" y="0.23"/>
-<vertex x="-2.19" y="0.17"/>
-<vertex x="-2.21" y="0.1"/>
-<vertex x="-2.21" y="0.03"/>
-<vertex x="-2.21" y="-0.04"/>
-<vertex x="-2.21" y="-0.1"/>
-<vertex x="-2.19" y="-0.17"/>
-<vertex x="-2.17" y="-0.23"/>
-<vertex x="-2.15" y="-0.3"/>
-<vertex x="-2.11" y="-0.36"/>
-<vertex x="-2.08" y="-0.41"/>
-<vertex x="-2.03" y="-0.46"/>
-<vertex x="-1.98" y="-0.51"/>
-<vertex x="-1.93" y="-0.55"/>
-<vertex x="-1.87" y="-0.59"/>
-<vertex x="-1.81" y="-0.62"/>
-<vertex x="-1.75" y="-0.64"/>
-<vertex x="-1.68" y="-0.66"/>
-<vertex x="-1.62" y="-0.67"/>
-<vertex x="-1.55" y="-0.68"/>
-<vertex x="1.84" y="-0.68"/>
-<vertex x="1.88" y="-0.65"/>
-<vertex x="1.88" y="0.64"/>
-<vertex x="1.85" y="0.68"/>
-<vertex x="-1.54" y="0.68"/>
-<vertex x="-1.46" y="0.46"/>
-<vertex x="-1.39" y="0.48"/>
-<vertex x="-1.11" y="0.48"/>
-<vertex x="-1.05" y="0.48"/>
-<vertex x="-0.99" y="0.46"/>
-<vertex x="-0.92" y="0.43"/>
-<vertex x="-0.86" y="0.39"/>
-<vertex x="-0.82" y="0.34"/>
-<vertex x="-0.78" y="0.29"/>
-<vertex x="-0.75" y="0.23"/>
-<vertex x="-0.57" y="0.34"/>
-<vertex x="-0.57" y="0.41"/>
-<vertex x="-0.55" y="0.47"/>
-<vertex x="-0.48" y="0.48"/>
-<vertex x="-0.46" y="0.48"/>
-<vertex x="0.22" y="0.48"/>
-<vertex x="0.29" y="0.48"/>
-<vertex x="0.33" y="0.44"/>
-<vertex x="0.33" y="0.36"/>
-<vertex x="0.31" y="0.31"/>
-<vertex x="0.58" y="0.2"/>
-<vertex x="0.61" y="0.26"/>
-<vertex x="0.65" y="0.32"/>
-<vertex x="0.69" y="0.36"/>
-<vertex x="0.74" y="0.41"/>
-<vertex x="0.8" y="0.44"/>
-<vertex x="0.87" y="0.47"/>
-<vertex x="0.93" y="0.49"/>
-<vertex x="1" y="0.5"/>
-<vertex x="1.06" y="0.5"/>
-<vertex x="1.13" y="0.49"/>
-<vertex x="1.2" y="0.47"/>
-<vertex x="1.26" y="0.45"/>
-<vertex x="1.32" y="0.41"/>
-<vertex x="1.36" y="0.36"/>
-<vertex x="1.36" y="0.3"/>
-<vertex x="1.31" y="0.24"/>
-<vertex x="1.26" y="0.2"/>
-<vertex x="1.21" y="0.21"/>
-<vertex x="1.15" y="0.25"/>
-<vertex x="1.09" y="0.27"/>
-<vertex x="1.02" y="0.27"/>
-<vertex x="0.95" y="0.26"/>
-<vertex x="0.89" y="0.23"/>
-<vertex x="0.84" y="0.18"/>
-<vertex x="0.8" y="0.13"/>
-<vertex x="0.78" y="0.06"/>
-<vertex x="0.78" y="-0.01"/>
-<vertex x="0.79" y="-0.07"/>
-<vertex x="0.82" y="-0.14"/>
-<vertex x="0.87" y="-0.18"/>
-<vertex x="0.93" y="-0.22"/>
-<vertex x="0.99" y="-0.24"/>
-<vertex x="1.06" y="-0.24"/>
-<vertex x="1.12" y="-0.23"/>
-<vertex x="1.17" y="-0.21"/>
-<vertex x="1.23" y="-0.17"/>
-<vertex x="1.28" y="-0.18"/>
-<vertex x="1.33" y="-0.23"/>
-<vertex x="1.36" y="-0.3"/>
-<vertex x="1.34" y="-0.36"/>
-<vertex x="1.29" y="-0.4"/>
-<vertex x="1.24" y="-0.43"/>
-<vertex x="1.17" y="-0.46"/>
-<vertex x="1.1" y="-0.47"/>
-<vertex x="1.03" y="-0.47"/>
-<vertex x="0.97" y="-0.47"/>
-<vertex x="0.9" y="-0.45"/>
-<vertex x="0.84" y="-0.43"/>
-<vertex x="0.78" y="-0.4"/>
-<vertex x="0.72" y="-0.36"/>
-<vertex x="0.67" y="-0.31"/>
-<vertex x="0.63" y="-0.26"/>
-<vertex x="0.6" y="-0.2"/>
-<vertex x="0.57" y="-0.14"/>
-<vertex x="0.56" y="-0.07"/>
-<vertex x="0.55" y="0"/>
-<vertex x="0.55" y="0.07"/>
-<vertex x="0.56" y="0.14"/>
-<vertex x="0.58" y="0.2"/>
-<vertex x="0.31" y="0.31"/>
-<vertex x="0.25" y="0.29"/>
-<vertex x="0.04" y="0.29"/>
-<vertex x="-0.01" y="0.27"/>
-<vertex x="-0.01" y="-0.34"/>
-<vertex x="-0.01" y="-0.41"/>
-<vertex x="-0.04" y="-0.46"/>
-<vertex x="-0.11" y="-0.47"/>
-<vertex x="-0.18" y="-0.47"/>
-<vertex x="-0.23" y="-0.43"/>
-<vertex x="-0.23" y="-0.36"/>
-<vertex x="-0.23" y="0.25"/>
-<vertex x="-0.25" y="0.29"/>
-<vertex x="-0.46" y="0.29"/>
-<vertex x="-0.53" y="0.3"/>
-<vertex x="-0.57" y="0.34"/>
-<vertex x="-0.75" y="0.22"/>
-<vertex x="-0.75" y="0.15"/>
-<vertex x="-0.75" y="0.08"/>
-<vertex x="-0.76" y="0.02"/>
-<vertex x="-0.79" y="-0.04"/>
-<vertex x="-0.83" y="-0.1"/>
-<vertex x="-0.89" y="-0.14"/>
-<vertex x="-0.95" y="-0.18"/>
-<vertex x="-1.01" y="-0.2"/>
-<vertex x="-1.07" y="-0.21"/>
-<vertex x="-1.21" y="-0.21"/>
-<vertex x="-1.25" y="-0.23"/>
-<vertex x="-1.25" y="-0.37"/>
-<vertex x="-1.26" y="-0.43"/>
-<vertex x="-1.31" y="-0.47"/>
-<vertex x="-1.39" y="-0.47"/>
-<vertex x="-1.46" y="-0.45"/>
-<vertex x="-1.48" y="-0.4"/>
-<vertex x="-1.48" y="-0.33"/>
-<vertex x="-1.48" y="0.41"/>
-<vertex x="-1.46" y="0.46"/>
-<vertex x="-1.54" y="0.68"/>
-</polygon>
-<polygon width="0.01" layer="21">
-<vertex x="-1" y="0.05"/>
-<vertex x="-0.98" y="0.11"/>
-<vertex x="-0.99" y="0.18"/>
-<vertex x="-1.03" y="0.23"/>
-<vertex x="-1.09" y="0.25"/>
-<vertex x="-1.23" y="0.25"/>
-<vertex x="-1.25" y="0.21"/>
-<vertex x="-1.25" y="0.07"/>
-<vertex x="-1.24" y="0.02"/>
-<vertex x="-1.1" y="0.02"/>
-</polygon>
-</package>
 <package name="#SHLD#501">
 <polygon width="0.01" layer="21">
 <vertex x="-1.91" y="0.68"/>
@@ -14646,6 +14475,179 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.55" y="-0.17"/>
 </polygon>
 </package>
+<package name="#PTC#13">
+<polygon width="0.01" layer="21">
+<vertex x="-1.55" y="0.68"/>
+<vertex x="-1.82" y="0.68"/>
+<vertex x="-1.88" y="0.66"/>
+<vertex x="-1.88" y="-0.63"/>
+<vertex x="-1.86" y="-0.68"/>
+<vertex x="1.53" y="-0.68"/>
+<vertex x="1.59" y="-0.68"/>
+<vertex x="1.66" y="-0.67"/>
+<vertex x="1.73" y="-0.65"/>
+<vertex x="1.79" y="-0.63"/>
+<vertex x="1.85" y="-0.6"/>
+<vertex x="1.91" y="-0.57"/>
+<vertex x="1.96" y="-0.53"/>
+<vertex x="2.01" y="-0.48"/>
+<vertex x="2.06" y="-0.43"/>
+<vertex x="2.1" y="-0.38"/>
+<vertex x="2.14" y="-0.32"/>
+<vertex x="2.16" y="-0.26"/>
+<vertex x="2.19" y="-0.19"/>
+<vertex x="2.2" y="-0.13"/>
+<vertex x="2.21" y="-0.06"/>
+<vertex x="2.21" y="0.01"/>
+<vertex x="2.21" y="0.08"/>
+<vertex x="2.2" y="0.14"/>
+<vertex x="2.18" y="0.21"/>
+<vertex x="2.16" y="0.27"/>
+<vertex x="2.13" y="0.33"/>
+<vertex x="2.09" y="0.39"/>
+<vertex x="2.05" y="0.44"/>
+<vertex x="2" y="0.49"/>
+<vertex x="1.95" y="0.54"/>
+<vertex x="1.9" y="0.57"/>
+<vertex x="1.84" y="0.61"/>
+<vertex x="1.78" y="0.63"/>
+<vertex x="1.71" y="0.65"/>
+<vertex x="1.65" y="0.67"/>
+<vertex x="1.58" y="0.68"/>
+<vertex x="1.51" y="0.68"/>
+<vertex x="-1.54" y="0.68"/>
+<vertex x="-1.46" y="0.46"/>
+<vertex x="-1.39" y="0.48"/>
+<vertex x="-1.11" y="0.48"/>
+<vertex x="-1.05" y="0.48"/>
+<vertex x="-0.99" y="0.46"/>
+<vertex x="-0.92" y="0.43"/>
+<vertex x="-0.86" y="0.39"/>
+<vertex x="-0.82" y="0.34"/>
+<vertex x="-0.78" y="0.29"/>
+<vertex x="-0.75" y="0.23"/>
+<vertex x="-0.57" y="0.34"/>
+<vertex x="-0.57" y="0.41"/>
+<vertex x="-0.55" y="0.47"/>
+<vertex x="-0.48" y="0.48"/>
+<vertex x="-0.46" y="0.48"/>
+<vertex x="0.22" y="0.48"/>
+<vertex x="0.29" y="0.48"/>
+<vertex x="0.33" y="0.44"/>
+<vertex x="0.33" y="0.36"/>
+<vertex x="0.31" y="0.31"/>
+<vertex x="0.58" y="0.2"/>
+<vertex x="0.61" y="0.26"/>
+<vertex x="0.65" y="0.32"/>
+<vertex x="0.69" y="0.36"/>
+<vertex x="0.74" y="0.41"/>
+<vertex x="0.8" y="0.44"/>
+<vertex x="0.87" y="0.47"/>
+<vertex x="0.93" y="0.49"/>
+<vertex x="1" y="0.5"/>
+<vertex x="1.06" y="0.5"/>
+<vertex x="1.13" y="0.49"/>
+<vertex x="1.2" y="0.47"/>
+<vertex x="1.26" y="0.45"/>
+<vertex x="1.32" y="0.41"/>
+<vertex x="1.36" y="0.36"/>
+<vertex x="1.36" y="0.3"/>
+<vertex x="1.31" y="0.24"/>
+<vertex x="1.26" y="0.2"/>
+<vertex x="1.21" y="0.21"/>
+<vertex x="1.15" y="0.25"/>
+<vertex x="1.09" y="0.27"/>
+<vertex x="1.02" y="0.27"/>
+<vertex x="0.95" y="0.26"/>
+<vertex x="0.89" y="0.23"/>
+<vertex x="0.84" y="0.18"/>
+<vertex x="0.8" y="0.13"/>
+<vertex x="0.78" y="0.06"/>
+<vertex x="0.78" y="-0.01"/>
+<vertex x="0.79" y="-0.07"/>
+<vertex x="0.82" y="-0.14"/>
+<vertex x="0.87" y="-0.18"/>
+<vertex x="0.93" y="-0.22"/>
+<vertex x="0.99" y="-0.24"/>
+<vertex x="1.06" y="-0.24"/>
+<vertex x="1.12" y="-0.23"/>
+<vertex x="1.17" y="-0.21"/>
+<vertex x="1.23" y="-0.17"/>
+<vertex x="1.28" y="-0.18"/>
+<vertex x="1.33" y="-0.23"/>
+<vertex x="1.36" y="-0.3"/>
+<vertex x="1.34" y="-0.36"/>
+<vertex x="1.29" y="-0.4"/>
+<vertex x="1.24" y="-0.43"/>
+<vertex x="1.17" y="-0.46"/>
+<vertex x="1.1" y="-0.47"/>
+<vertex x="1.03" y="-0.47"/>
+<vertex x="0.97" y="-0.47"/>
+<vertex x="0.9" y="-0.45"/>
+<vertex x="0.84" y="-0.43"/>
+<vertex x="0.78" y="-0.4"/>
+<vertex x="0.72" y="-0.36"/>
+<vertex x="0.67" y="-0.31"/>
+<vertex x="0.63" y="-0.26"/>
+<vertex x="0.6" y="-0.2"/>
+<vertex x="0.57" y="-0.14"/>
+<vertex x="0.56" y="-0.07"/>
+<vertex x="0.55" y="0"/>
+<vertex x="0.55" y="0.07"/>
+<vertex x="0.56" y="0.14"/>
+<vertex x="0.58" y="0.2"/>
+<vertex x="0.31" y="0.31"/>
+<vertex x="0.25" y="0.29"/>
+<vertex x="0.04" y="0.29"/>
+<vertex x="-0.01" y="0.27"/>
+<vertex x="-0.01" y="-0.34"/>
+<vertex x="-0.01" y="-0.41"/>
+<vertex x="-0.04" y="-0.46"/>
+<vertex x="-0.11" y="-0.47"/>
+<vertex x="-0.18" y="-0.47"/>
+<vertex x="-0.23" y="-0.43"/>
+<vertex x="-0.23" y="-0.36"/>
+<vertex x="-0.23" y="0.25"/>
+<vertex x="-0.25" y="0.29"/>
+<vertex x="-0.46" y="0.29"/>
+<vertex x="-0.53" y="0.3"/>
+<vertex x="-0.57" y="0.34"/>
+<vertex x="-0.75" y="0.22"/>
+<vertex x="-0.75" y="0.15"/>
+<vertex x="-0.75" y="0.08"/>
+<vertex x="-0.76" y="0.02"/>
+<vertex x="-0.79" y="-0.04"/>
+<vertex x="-0.83" y="-0.1"/>
+<vertex x="-0.89" y="-0.14"/>
+<vertex x="-0.95" y="-0.18"/>
+<vertex x="-1.01" y="-0.2"/>
+<vertex x="-1.07" y="-0.21"/>
+<vertex x="-1.21" y="-0.21"/>
+<vertex x="-1.25" y="-0.23"/>
+<vertex x="-1.25" y="-0.37"/>
+<vertex x="-1.26" y="-0.43"/>
+<vertex x="-1.31" y="-0.47"/>
+<vertex x="-1.39" y="-0.47"/>
+<vertex x="-1.46" y="-0.45"/>
+<vertex x="-1.48" y="-0.4"/>
+<vertex x="-1.48" y="-0.33"/>
+<vertex x="-1.48" y="0.41"/>
+<vertex x="-1.46" y="0.46"/>
+<vertex x="-1.54" y="0.68"/>
+</polygon>
+<polygon width="0.01" layer="21">
+<vertex x="-1" y="0.05"/>
+<vertex x="-0.98" y="0.11"/>
+<vertex x="-0.99" y="0.18"/>
+<vertex x="-1.03" y="0.23"/>
+<vertex x="-1.09" y="0.25"/>
+<vertex x="-1.23" y="0.25"/>
+<vertex x="-1.25" y="0.21"/>
+<vertex x="-1.25" y="0.07"/>
+<vertex x="-1.24" y="0.02"/>
+<vertex x="-1.1" y="0.02"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="dip_switch">
@@ -15184,7 +15186,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$15" library="top" package="0523" value="" x="62.23" y="17.526" smashed="yes"/>
 <element name="U$16" library="top" package="1524" value="" x="23.876" y="16.51" smashed="yes"/>
 <element name="U$13" library="top" package="MAIN523" value="" x="68.58" y="54.61" smashed="yes" rot="MR0"/>
-<element name="U$18" library="top" package="BOARD524" value="" x="57.15" y="54.61" smashed="yes" rot="MR0"/>
+<element name="U$18" library="top" package="BOARD524" value="" x="58.166" y="54.483" smashed="yes" rot="MR0"/>
 <element name="R3" library="SparkFun-Resistors" package="0603" value="2.0k" x="113.411" y="17.907" smashed="yes">
 <attribute name="NAME" x="113.411" y="18.669" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08296" x="113.411" y="17.907" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -15196,7 +15198,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" value="3.1A/30V/105mΩ" x="118.364" y="54.483" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$21" library="top" package="MAIN_BOARD5523" value="" x="93.472" y="15.2654" smashed="yes"/>
-<element name="U$17" library="SparkFun-MicroMod" package="MICROMOD_LOGO_1" value="" x="62.23" y="48.26" smashed="yes" rot="MR0"/>
+<element name="U$17" library="SparkFun-MicroMod" package="MICROMOD_LOGO_1" value="" x="63.5" y="48.26" smashed="yes" rot="MR0"/>
 <element name="U$22" library="SparkFun-Aesthetics" package="QWIIC_3MM" value="" x="121.9708" y="54.5592" smashed="yes"/>
 <element name="U$23" library="top" package="STANDOFF501" value="" x="121.8438" y="53.3908" smashed="yes"/>
 <element name="U$24" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.3" value="" x="105.5878" y="51.9176" smashed="yes"/>
@@ -15255,7 +15257,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$37" library="top" package="#EN0_ALT#21" value="" x="87.376" y="8.128" smashed="yes" rot="R90"/>
 <element name="U$38" library="top" package="#EN1_ALT#21" value="" x="78.486" y="8.128" smashed="yes" rot="R90"/>
 <element name="U$27" library="top" package="CHARGE501" value="" x="120.7262" y="6.0198" smashed="yes"/>
-<element name="U$3" library="top" package="#PTC#503" value="" x="121.6152" y="62.5602" smashed="yes" rot="MR0"/>
 <element name="U$7" library="top" package="#SHLD#501" value="" x="112.9792" y="70.0532" smashed="yes" rot="MR0"/>
 <element name="U$30" library="top" package="#I2C#501" value="" x="102.108" y="11.43" smashed="yes" rot="MR0"/>
 <element name="5V_MEAS" library="SparkFun-Jumpers" package="COMBO-JUMPER_2_NC_TRACE" value="JUMPER-COMBO_2_NC_TRACE" x="113.538" y="50.8" smashed="yes" rot="R180">
@@ -15371,6 +15372,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$42" library="top" package="#VIN_LED#24" value="" x="117.602" y="45.847" smashed="yes" rot="MR0"/>
 <element name="U$43" library="top" package="QWC18" value="" x="123.444" y="42.291" smashed="yes" rot="R90"/>
 <element name="U$44" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="43.18" y="2.54" smashed="yes"/>
+<element name="U$45" library="top" package="#PTC#13" value="" x="115.824" y="62.611" smashed="yes" rot="MR0"/>
 <element name="J12" library="SparkFun-Connectors" package="JST04_1MM_VERT" value="Vertical Qwiic Connector" x="86.36" y="142.494" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.344" y="137.92766875" size="0.6096" layer="25" rot="R180"/>
 <attribute name="PROD_ID" value="CONN-14483" x="86.36" y="142.494" size="1.778" layer="27" rot="R180" display="off"/>
@@ -15582,7 +15584,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="H13" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW-M2.5_2.5MM_TALL" x="81.2924" y="130.4036" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="HW-14899" x="81.2924" y="130.4036" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$45" library="top" package="3V332533" value="" x="123.48380625" y="116.5606" smashed="yes" rot="R90"/>
+<element name="U$3" library="top" package="3V332533" value="" x="123.48380625" y="116.5606" smashed="yes" rot="R90"/>
 <element name="U$46" library="top" package="VIN32532" value="" x="123.473996875" y="123.4948" smashed="yes" rot="R90"/>
 <element name="U$47" library="top" package="CHG32531" value="" x="123.509275" y="112.9792" smashed="yes" rot="R90"/>
 <element name="U$48" library="top" package="BOOT32541" value="" x="115.824" y="108.458" smashed="yes" rot="R90"/>
@@ -15600,7 +15602,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$54" library="top" package="0523" value="" x="62.23" y="95.25" smashed="yes"/>
 <element name="U$55" library="top" package="1524" value="" x="23.876" y="94.234" smashed="yes"/>
 <element name="U$56" library="top" package="MAIN523" value="" x="68.58" y="132.334" smashed="yes" rot="MR0"/>
-<element name="U$57" library="top" package="BOARD524" value="" x="57.15" y="132.334" smashed="yes" rot="MR0"/>
+<element name="U$57" library="top" package="BOARD524" value="" x="58.166" y="132.207" smashed="yes" rot="MR0"/>
 <element name="R27" library="SparkFun-Resistors" package="0603" value="2.0k" x="113.411" y="95.631" smashed="yes">
 <attribute name="NAME" x="113.411" y="96.393" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08296" x="113.411" y="95.631" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -15612,7 +15614,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" value="3.1A/30V/105mΩ" x="118.364" y="132.207" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$58" library="top" package="MAIN_BOARD5523" value="" x="93.472" y="92.9894" smashed="yes"/>
-<element name="U$59" library="SparkFun-MicroMod" package="MICROMOD_LOGO_1" value="" x="62.23" y="125.984" smashed="yes" rot="MR0"/>
+<element name="U$59" library="SparkFun-MicroMod" package="MICROMOD_LOGO_1" value="" x="63.5" y="125.984" smashed="yes" rot="MR0"/>
 <element name="U$60" library="SparkFun-Aesthetics" package="QWIIC_3MM" value="" x="121.9708" y="132.2832" smashed="yes"/>
 <element name="U$61" library="top" package="STANDOFF501" value="" x="121.8438" y="131.1148" smashed="yes"/>
 <element name="U$62" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.3" value="" x="105.5878" y="129.6416" smashed="yes"/>
@@ -15671,9 +15673,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$67" library="top" package="#EN0_ALT#21" value="" x="87.376" y="85.852" smashed="yes" rot="R90"/>
 <element name="U$68" library="top" package="#EN1_ALT#21" value="" x="78.486" y="85.852" smashed="yes" rot="R90"/>
 <element name="U$69" library="top" package="CHARGE501" value="" x="120.7262" y="83.7438" smashed="yes"/>
-<element name="U$70" library="top" package="#PTC#503" value="" x="121.6152" y="140.2842" smashed="yes" rot="MR0"/>
-<element name="U$71" library="top" package="#SHLD#501" value="" x="112.9792" y="147.7772" smashed="yes" rot="MR0"/>
-<element name="U$72" library="top" package="#I2C#501" value="" x="102.108" y="89.154" smashed="yes" rot="MR0"/>
+<element name="U$70" library="top" package="#SHLD#501" value="" x="112.9792" y="147.7772" smashed="yes" rot="MR0"/>
+<element name="U$71" library="top" package="#I2C#501" value="" x="102.108" y="89.154" smashed="yes" rot="MR0"/>
 <element name="5V_MEAS1" library="SparkFun-Jumpers" package="COMBO-JUMPER_2_NC_TRACE" value="JUMPER-COMBO_2_NC_TRACE" x="113.538" y="128.524" smashed="yes" rot="R180">
 <attribute name="NAME" x="113.538" y="127.381" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="113.538" y="129.667" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
@@ -15724,15 +15725,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-07828" x="90.678" y="131.826" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="89.916" y="131.826" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="U$73" library="top" package="#3V3_MEAS#6522" value="" x="113.5126" y="112.268" smashed="yes"/>
-<element name="U$74" library="top" package="#5V_MEAS#6522" value="" x="113.538" y="130.048" smashed="yes"/>
-<element name="U$75" library="top" package="500MA6520" value="" x="120.904" y="85.09" smashed="yes"/>
-<element name="U$76" library="top" package="#RST#6521" value="" x="121.92" y="96.012" smashed="yes" rot="R90"/>
-<element name="U$77" library="top" package="#GND#6520" value="" x="119.38" y="96.012" smashed="yes" rot="R90"/>
-<element name="U$78" library="top" package="G518" value="" x="90.932" y="85.09" smashed="yes"/>
-<element name="U$79" library="top" package="G6519" value="" x="82.042" y="85.09" smashed="yes"/>
-<element name="U$80" library="top" package="CS17" value="" x="99.822" y="85.09" smashed="yes"/>
-<element name="U$81" library="top" package="SWD6522" value="" x="118.872" y="90.424" smashed="yes" rot="R90"/>
+<element name="U$72" library="top" package="#3V3_MEAS#6522" value="" x="113.5126" y="112.268" smashed="yes"/>
+<element name="U$73" library="top" package="#5V_MEAS#6522" value="" x="113.538" y="130.048" smashed="yes"/>
+<element name="U$74" library="top" package="500MA6520" value="" x="120.904" y="85.09" smashed="yes"/>
+<element name="U$75" library="top" package="#RST#6521" value="" x="121.92" y="96.012" smashed="yes" rot="R90"/>
+<element name="U$76" library="top" package="#GND#6520" value="" x="119.38" y="96.012" smashed="yes" rot="R90"/>
+<element name="U$77" library="top" package="G518" value="" x="90.932" y="85.09" smashed="yes"/>
+<element name="U$78" library="top" package="G6519" value="" x="82.042" y="85.09" smashed="yes"/>
+<element name="U$79" library="top" package="CS17" value="" x="99.822" y="85.09" smashed="yes"/>
+<element name="U$80" library="top" package="SWD6522" value="" x="118.872" y="90.424" smashed="yes" rot="R90"/>
 <element name="DIVIDER1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="114.046" y="100.33" smashed="yes" rot="MR270">
 <attribute name="NAME" x="112.903" y="100.33" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="115.189" y="100.33" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
@@ -15780,13 +15781,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-11015" x="100.076" y="132.715" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="100.838" y="132.715" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="U$82" library="top" package="#3V3_EN#23" value="" x="112.649" y="121.031" smashed="yes" rot="MR0"/>
-<element name="U$83" library="top" package="#3V3_LED#22" value="" x="117.475" y="116.332" smashed="yes" rot="MR0"/>
-<element name="U$84" library="top" package="#QWIIC_LED#22" value="" x="116.586" y="119.253" smashed="yes" rot="MR0"/>
-<element name="U$85" library="top" package="#DIVIDER#23" value="" x="109.601" y="100.33" smashed="yes" rot="MR0"/>
-<element name="U$86" library="top" package="#VIN_LED#24" value="" x="117.602" y="123.571" smashed="yes" rot="MR0"/>
-<element name="U$87" library="top" package="QWC18" value="" x="123.444" y="120.015" smashed="yes" rot="R90"/>
-<element name="U$88" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="43.18" y="80.264" smashed="yes"/>
+<element name="U$81" library="top" package="#3V3_EN#23" value="" x="112.649" y="121.031" smashed="yes" rot="MR0"/>
+<element name="U$82" library="top" package="#3V3_LED#22" value="" x="117.475" y="116.332" smashed="yes" rot="MR0"/>
+<element name="U$83" library="top" package="#QWIIC_LED#22" value="" x="116.586" y="119.253" smashed="yes" rot="MR0"/>
+<element name="U$84" library="top" package="#DIVIDER#23" value="" x="109.601" y="100.33" smashed="yes" rot="MR0"/>
+<element name="U$85" library="top" package="#VIN_LED#24" value="" x="117.602" y="123.571" smashed="yes" rot="MR0"/>
+<element name="U$86" library="top" package="QWC18" value="" x="123.444" y="120.015" smashed="yes" rot="R90"/>
+<element name="U$87" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="43.18" y="80.264" smashed="yes"/>
+<element name="U$88" library="top" package="#PTC#13" value="" x="115.824" y="140.335" smashed="yes" rot="MR0"/>
 <element name="J25" library="SparkFun-Connectors" package="JST04_1MM_VERT" value="Vertical Qwiic Connector" x="86.36" y="220.218" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.344" y="215.65166875" size="0.6096" layer="25" rot="R180"/>
 <attribute name="PROD_ID" value="CONN-14483" x="86.36" y="220.218" size="1.778" layer="27" rot="R180" display="off"/>
@@ -16016,7 +16018,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$98" library="top" package="0523" value="" x="62.23" y="172.974" smashed="yes"/>
 <element name="U$99" library="top" package="1524" value="" x="23.876" y="171.958" smashed="yes"/>
 <element name="U$100" library="top" package="MAIN523" value="" x="68.58" y="210.058" smashed="yes" rot="MR0"/>
-<element name="U$101" library="top" package="BOARD524" value="" x="57.15" y="210.058" smashed="yes" rot="MR0"/>
+<element name="U$101" library="top" package="BOARD524" value="" x="58.166" y="209.931" smashed="yes" rot="MR0"/>
 <element name="R45" library="SparkFun-Resistors" package="0603" value="2.0k" x="113.411" y="173.355" smashed="yes">
 <attribute name="NAME" x="113.411" y="174.117" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08296" x="113.411" y="173.355" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -16028,7 +16030,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" value="3.1A/30V/105mΩ" x="118.364" y="209.931" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$102" library="top" package="MAIN_BOARD5523" value="" x="93.472" y="170.7134" smashed="yes"/>
-<element name="U$103" library="SparkFun-MicroMod" package="MICROMOD_LOGO_1" value="" x="62.23" y="203.708" smashed="yes" rot="MR0"/>
+<element name="U$103" library="SparkFun-MicroMod" package="MICROMOD_LOGO_1" value="" x="63.5" y="203.708" smashed="yes" rot="MR0"/>
 <element name="U$104" library="SparkFun-Aesthetics" package="QWIIC_3MM" value="" x="121.9708" y="210.0072" smashed="yes"/>
 <element name="U$105" library="top" package="STANDOFF501" value="" x="121.8438" y="208.8388" smashed="yes"/>
 <element name="U$106" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.3" value="" x="105.5878" y="207.3656" smashed="yes"/>
@@ -16087,9 +16089,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$111" library="top" package="#EN0_ALT#21" value="" x="87.376" y="163.576" smashed="yes" rot="R90"/>
 <element name="U$112" library="top" package="#EN1_ALT#21" value="" x="78.486" y="163.576" smashed="yes" rot="R90"/>
 <element name="U$113" library="top" package="CHARGE501" value="" x="120.7262" y="161.4678" smashed="yes"/>
-<element name="U$114" library="top" package="#PTC#503" value="" x="121.6152" y="218.0082" smashed="yes" rot="MR0"/>
-<element name="U$115" library="top" package="#SHLD#501" value="" x="112.9792" y="225.5012" smashed="yes" rot="MR0"/>
-<element name="U$116" library="top" package="#I2C#501" value="" x="102.108" y="166.878" smashed="yes" rot="MR0"/>
+<element name="U$114" library="top" package="#SHLD#501" value="" x="112.9792" y="225.5012" smashed="yes" rot="MR0"/>
+<element name="U$115" library="top" package="#I2C#501" value="" x="102.108" y="166.878" smashed="yes" rot="MR0"/>
 <element name="5V_MEAS2" library="SparkFun-Jumpers" package="COMBO-JUMPER_2_NC_TRACE" value="JUMPER-COMBO_2_NC_TRACE" x="113.538" y="206.248" smashed="yes" rot="R180">
 <attribute name="NAME" x="113.538" y="205.105" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="113.538" y="207.391" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
@@ -16140,15 +16141,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-07828" x="90.678" y="209.55" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="89.916" y="209.55" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="U$117" library="top" package="#3V3_MEAS#6522" value="" x="113.5126" y="189.992" smashed="yes"/>
-<element name="U$118" library="top" package="#5V_MEAS#6522" value="" x="113.538" y="207.772" smashed="yes"/>
-<element name="U$119" library="top" package="500MA6520" value="" x="120.904" y="162.814" smashed="yes"/>
-<element name="U$120" library="top" package="#RST#6521" value="" x="121.92" y="173.736" smashed="yes" rot="R90"/>
-<element name="U$121" library="top" package="#GND#6520" value="" x="119.38" y="173.736" smashed="yes" rot="R90"/>
-<element name="U$122" library="top" package="G518" value="" x="90.932" y="162.814" smashed="yes"/>
-<element name="U$123" library="top" package="G6519" value="" x="82.042" y="162.814" smashed="yes"/>
-<element name="U$124" library="top" package="CS17" value="" x="99.822" y="162.814" smashed="yes"/>
-<element name="U$125" library="top" package="SWD6522" value="" x="118.872" y="168.148" smashed="yes" rot="R90"/>
+<element name="U$116" library="top" package="#3V3_MEAS#6522" value="" x="113.5126" y="189.992" smashed="yes"/>
+<element name="U$117" library="top" package="#5V_MEAS#6522" value="" x="113.538" y="207.772" smashed="yes"/>
+<element name="U$118" library="top" package="500MA6520" value="" x="120.904" y="162.814" smashed="yes"/>
+<element name="U$119" library="top" package="#RST#6521" value="" x="121.92" y="173.736" smashed="yes" rot="R90"/>
+<element name="U$120" library="top" package="#GND#6520" value="" x="119.38" y="173.736" smashed="yes" rot="R90"/>
+<element name="U$121" library="top" package="G518" value="" x="90.932" y="162.814" smashed="yes"/>
+<element name="U$122" library="top" package="G6519" value="" x="82.042" y="162.814" smashed="yes"/>
+<element name="U$123" library="top" package="CS17" value="" x="99.822" y="162.814" smashed="yes"/>
+<element name="U$124" library="top" package="SWD6522" value="" x="118.872" y="168.148" smashed="yes" rot="R90"/>
 <element name="DIVIDER2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="114.046" y="178.054" smashed="yes" rot="MR270">
 <attribute name="NAME" x="112.903" y="178.054" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="115.189" y="178.054" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
@@ -16196,13 +16197,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-11015" x="100.076" y="210.439" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="100.838" y="210.439" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="U$126" library="top" package="#3V3_EN#23" value="" x="112.649" y="198.755" smashed="yes" rot="MR0"/>
-<element name="U$127" library="top" package="#3V3_LED#22" value="" x="117.475" y="194.056" smashed="yes" rot="MR0"/>
-<element name="U$128" library="top" package="#QWIIC_LED#22" value="" x="116.586" y="196.977" smashed="yes" rot="MR0"/>
-<element name="U$129" library="top" package="#DIVIDER#23" value="" x="109.601" y="178.054" smashed="yes" rot="MR0"/>
-<element name="U$130" library="top" package="#VIN_LED#24" value="" x="117.602" y="201.295" smashed="yes" rot="MR0"/>
-<element name="U$131" library="top" package="QWC18" value="" x="123.444" y="197.739" smashed="yes" rot="R90"/>
-<element name="U$132" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="43.18" y="157.988" smashed="yes"/>
+<element name="U$125" library="top" package="#3V3_EN#23" value="" x="112.649" y="198.755" smashed="yes" rot="MR0"/>
+<element name="U$126" library="top" package="#3V3_LED#22" value="" x="117.475" y="194.056" smashed="yes" rot="MR0"/>
+<element name="U$127" library="top" package="#QWIIC_LED#22" value="" x="116.586" y="196.977" smashed="yes" rot="MR0"/>
+<element name="U$128" library="top" package="#DIVIDER#23" value="" x="109.601" y="178.054" smashed="yes" rot="MR0"/>
+<element name="U$129" library="top" package="#VIN_LED#24" value="" x="117.602" y="201.295" smashed="yes" rot="MR0"/>
+<element name="U$130" library="top" package="QWC18" value="" x="123.444" y="197.739" smashed="yes" rot="R90"/>
+<element name="U$131" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="43.18" y="157.988" smashed="yes"/>
+<element name="U$132" library="top" package="#PTC#13" value="" x="115.824" y="218.059" smashed="yes" rot="MR0"/>
 <element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="229.997" smashed="yes"/>
 <element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="229.997" smashed="yes" rot="MR0"/>
 <element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="127.08381875" y="229.997" smashed="yes"/>
