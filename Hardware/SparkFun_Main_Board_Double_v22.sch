@@ -31509,7 +31509,7 @@ or CAN Bus</text>
 <text x="305.054" y="271.526" size="2.54" layer="94" font="vector" align="center">Processor Voltage Regulation</text>
 <text x="233.68" y="263.652" size="1.778" layer="97" font="vector" align="center">Closing jumper bypasses PTC
 to allow &gt;2A current flows.</text>
-<text x="360.68" y="246.38" size="1.778" layer="97" font="vector" align="center">Input: 3.7-6.0V
+<text x="360.68" y="246.38" size="1.778" layer="97" font="vector" align="center">Input: 2.2V-6.0V
 Output: 1A Max</text>
 <text x="309.88" y="218.44" size="1.778" layer="97" font="vector" align="center">Close VE to enable processor
 control of 3.3V bus.</text>
