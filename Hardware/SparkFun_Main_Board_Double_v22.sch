@@ -26119,8 +26119,8 @@ sized tool</text>
 <pin name="3.3V" x="-17.78" y="25.4" length="short"/>
 <pin name="USBHOST_D+" x="-17.78" y="-7.62" length="short"/>
 <pin name="USBHOST_D-" x="-17.78" y="-5.08" length="short"/>
-<pin name="CAN-RX" x="-17.78" y="-15.24" length="short"/>
-<pin name="CAN-TX" x="-17.78" y="-12.7" length="short"/>
+<pin name="CAN-TX" x="-17.78" y="-15.24" length="short"/>
+<pin name="CAN-RX" x="-17.78" y="-12.7" length="short"/>
 <pin name="I2C_SCL" x="17.78" y="12.7" length="short" rot="R180"/>
 <pin name="I2C_SDA" x="17.78" y="10.16" length="short" rot="R180"/>
 <pin name="F0/!INT!" x="17.78" y="-12.7" length="short" rot="R180"/>
@@ -26135,10 +26135,10 @@ sized tool</text>
 <pin name="VCC" x="-17.78" y="22.86" length="short"/>
 <pin name="USB_VIN" x="-17.78" y="-2.54" length="short"/>
 <pin name="PWR_EN" x="-17.78" y="17.78" length="short"/>
-<pin name="RX" x="17.78" y="5.08" length="short" rot="R180"/>
-<pin name="CTS" x="17.78" y="0" length="short" rot="R180"/>
-<pin name="TX" x="17.78" y="2.54" length="short" rot="R180"/>
-<pin name="RTS" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="FUNC_RX" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="FUNC_CTS" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="FUNC_TX" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="FUNC_RTS" x="17.78" y="-2.54" length="short" rot="R180"/>
 <pin name="A0" x="17.78" y="-7.62" length="short" rot="R180"/>
 <pin name="EEPROM_A0" x="-17.78" y="-20.32" length="short"/>
 <pin name="EEPROM_A1" x="-17.78" y="-22.86" length="short"/>
@@ -26311,9 +26311,8 @@ sized tool</text>
 <connects>
 <connect gate="J1" pin="3.3V" pad="73"/>
 <connect gate="J1" pin="A0" pad="38"/>
-<connect gate="J1" pin="CAN-RX" pad="41"/>
-<connect gate="J1" pin="CAN-TX" pad="43"/>
-<connect gate="J1" pin="CTS" pad="18"/>
+<connect gate="J1" pin="CAN-RX" pad="43"/>
+<connect gate="J1" pin="CAN-TX" pad="41"/>
 <connect gate="J1" pin="DFU_!ACTIVE!" pad="10"/>
 <connect gate="J1" pin="DFU_!BOOT!" pad="66"/>
 <connect gate="J1" pin="DFU_!RST!" pad="68"/>
@@ -26331,17 +26330,18 @@ sized tool</text>
 <connect gate="J1" pin="F5" pad="57"/>
 <connect gate="J1" pin="F6" pad="59"/>
 <connect gate="J1" pin="F7" pad="61"/>
+<connect gate="J1" pin="FUNC_CTS" pad="18"/>
+<connect gate="J1" pin="FUNC_RTS" pad="16"/>
+<connect gate="J1" pin="FUNC_RX" pad="15"/>
+<connect gate="J1" pin="FUNC_TX" pad="13"/>
 <connect gate="J1" pin="GND" pad="1 2 8 33 39 45 75 GND1 GND2 GND3 GND4 GND5 GND6"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
 <connect gate="J1" pin="I2C_SDA" pad="19"/>
 <connect gate="J1" pin="PWR_EN" pad="71"/>
-<connect gate="J1" pin="RTS" pad="16"/>
-<connect gate="J1" pin="RX" pad="15"/>
 <connect gate="J1" pin="SPI_SCK" pad="3"/>
 <connect gate="J1" pin="SPI_SDI" pad="5"/>
 <connect gate="J1" pin="SPI_SDO" pad="7"/>
-<connect gate="J1" pin="TX" pad="13"/>
 <connect gate="J1" pin="USBHOST_D+" pad="35"/>
 <connect gate="J1" pin="USBHOST_D-" pad="37"/>
 <connect gate="J1" pin="USB_VIN" pad="70"/>
@@ -26355,9 +26355,8 @@ sized tool</text>
 <connects>
 <connect gate="J1" pin="3.3V" pad="73"/>
 <connect gate="J1" pin="A0" pad="38"/>
-<connect gate="J1" pin="CAN-RX" pad="41"/>
-<connect gate="J1" pin="CAN-TX" pad="43"/>
-<connect gate="J1" pin="CTS" pad="18"/>
+<connect gate="J1" pin="CAN-RX" pad="43"/>
+<connect gate="J1" pin="CAN-TX" pad="41"/>
 <connect gate="J1" pin="DFU_!ACTIVE!" pad="10"/>
 <connect gate="J1" pin="DFU_!BOOT!" pad="66"/>
 <connect gate="J1" pin="DFU_!RST!" pad="68"/>
@@ -26375,17 +26374,18 @@ sized tool</text>
 <connect gate="J1" pin="F5" pad="57"/>
 <connect gate="J1" pin="F6" pad="59"/>
 <connect gate="J1" pin="F7" pad="61"/>
+<connect gate="J1" pin="FUNC_CTS" pad="18"/>
+<connect gate="J1" pin="FUNC_RTS" pad="16"/>
+<connect gate="J1" pin="FUNC_RX" pad="15"/>
+<connect gate="J1" pin="FUNC_TX" pad="13"/>
 <connect gate="J1" pin="GND" pad="1 2 8 33 39 45 75"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
 <connect gate="J1" pin="I2C_SDA" pad="19"/>
 <connect gate="J1" pin="PWR_EN" pad="71"/>
-<connect gate="J1" pin="RTS" pad="16"/>
-<connect gate="J1" pin="RX" pad="15"/>
 <connect gate="J1" pin="SPI_SCK" pad="3"/>
 <connect gate="J1" pin="SPI_SDI" pad="5"/>
 <connect gate="J1" pin="SPI_SDO" pad="7"/>
-<connect gate="J1" pin="TX" pad="13"/>
 <connect gate="J1" pin="USBHOST_D+" pad="35"/>
 <connect gate="J1" pin="USBHOST_D-" pad="37"/>
 <connect gate="J1" pin="USB_VIN" pad="70"/>
@@ -32653,7 +32653,7 @@ Good for deep sleep power considerations.</text>
 <segment>
 <wire x1="154.94" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <label x="157.48" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J7" gate="J1" pin="RX"/>
+<pinref part="J7" gate="J1" pin="FUNC_RX"/>
 </segment>
 </net>
 <net name="RX2-PROCESSOR" class="0">
@@ -32665,7 +32665,7 @@ Good for deep sleep power considerations.</text>
 <segment>
 <wire x1="154.94" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
 <label x="157.48" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J7" gate="J1" pin="TX"/>
+<pinref part="J7" gate="J1" pin="FUNC_TX"/>
 </segment>
 </net>
 <net name="TX1-PROCESSOR" class="0">
@@ -32882,7 +32882,7 @@ Good for deep sleep power considerations.</text>
 <segment>
 <wire x1="27.94" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 <label x="25.4" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J6" gate="J1" pin="CAN-RX"/>
+<pinref part="J6" gate="J1" pin="CAN-TX"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -32918,7 +32918,7 @@ Good for deep sleep power considerations.</text>
 <segment>
 <wire x1="27.94" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <label x="25.4" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="J6" gate="J1" pin="CAN-TX"/>
+<pinref part="J6" gate="J1" pin="CAN-RX"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="CAN-RX"/>
@@ -32999,7 +32999,7 @@ Good for deep sleep power considerations.</text>
 <segment>
 <wire x1="63.5" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <label x="66.04" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J6" gate="J1" pin="RTS"/>
+<pinref part="J6" gate="J1" pin="FUNC_RTS"/>
 </segment>
 </net>
 <net name="RTS1-PROCESSOR" class="0">
@@ -33011,7 +33011,7 @@ Good for deep sleep power considerations.</text>
 <segment>
 <wire x1="63.5" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
 <label x="66.04" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J6" gate="J1" pin="CTS"/>
+<pinref part="J6" gate="J1" pin="FUNC_CTS"/>
 </segment>
 </net>
 <net name="G5-PROCESSOR" class="0">
@@ -33330,7 +33330,7 @@ Good for deep sleep power considerations.</text>
 <segment>
 <wire x1="63.5" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <label x="66.04" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J6" gate="J1" pin="RX"/>
+<pinref part="J6" gate="J1" pin="FUNC_RX"/>
 </segment>
 <segment>
 <wire x1="254" y1="35.56" x2="251.46" y2="35.56" width="0.1524" layer="91"/>
@@ -33342,7 +33342,7 @@ Good for deep sleep power considerations.</text>
 <segment>
 <wire x1="63.5" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
 <label x="66.04" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J6" gate="J1" pin="TX"/>
+<pinref part="J6" gate="J1" pin="FUNC_TX"/>
 </segment>
 <segment>
 <wire x1="254" y1="27.94" x2="251.46" y2="27.94" width="0.1524" layer="91"/>
